@@ -1,0 +1,28 @@
+{
+    "parent": "apotheosis:gateways/ascent",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "background": "apotheosis:textures/advancements/bg/apoth.png",
+        "description": {
+            "translate": "advancements.apotheosis.progression.summit.desc"
+        },
+        "frame": "goal",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:netherite_sword"
+        },
+        "title": {
+            "translate": "advancements.apotheosis.progression.summit.title"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

@@ -1,0 +1,343 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter"
+	group: "0CDBBA537B0A5FD4"
+	icon: {
+		id: "apotheosis:sigil_of_supremacy"
+	}
+	id: "7EBFE8E5ECEA8883"
+	order_index: 3
+	quest_links: [
+		{
+			id: "218E2E3257AA8179"
+			linked_quest: "2953A4532EAF1287"
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			id: "4203F4EFA50DF350"
+			linked_quest: "75AB73887516E46C"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			id: "1F26D4561C8CFF9C"
+			linked_quest: "55DC643E3283B8B2"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "2C4F27BF25DB7117"
+			linked_quest: "1D71797F54B91B1B"
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["55DC643E3283B8B2"]
+			id: "007AAA22D619F250"
+			tasks: [{
+				id: "50084347E984630F"
+				item: { count: 1, id: "apothic_enchanting:endshelf" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["007AAA22D619F250"]
+			id: "5C59D67C64769280"
+			tasks: [{
+				id: "4EDF74D39817CE02"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C59D67C64769280"]
+			id: "4048775E2BC6B1AD"
+			tasks: [{
+				advancement: "apothic_enchanting:100ench"
+				criterion: ""
+				id: "23D6117311FE294B"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4048775E2BC6B1AD"]
+			id: "38319E5B377E0712"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				advancement: "apothic_enchanting:max_rectified"
+				criterion: ""
+				id: "38BA38F1487659A7"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["764AAE99E3FE82FF"]
+			disable_toast: true
+			id: "6468C1664F101BBC"
+			tasks: [
+				{
+					id: "357BEAC927AB424D"
+					item: { count: 1, id: "cataclysm:mech_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_harbinger"
+					criterion: ""
+					id: "1B8A29D3F725EDDA"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["764AAE99E3FE82FF"]
+			disable_toast: true
+			id: "73A7B61CDA506412"
+			tasks: [
+				{
+					id: "646C300D17AD7DE0"
+					item: { count: 1, id: "cataclysm:flame_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_ignis"
+					criterion: ""
+					id: "2AC644FEE4F6CBE4"
+					type: "advancement"
+				}
+			]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["764AAE99E3FE82FF"]
+			disable_toast: true
+			id: "71549B03CA17EF43"
+			tasks: [
+				{
+					id: "519E34FA2D602392"
+					item: { count: 1, id: "cataclysm:void_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_ender_guardian"
+					criterion: ""
+					id: "39C548135326A3B7"
+					type: "advancement"
+				}
+			]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["764AAE99E3FE82FF"]
+			disable_toast: true
+			id: "4AECA3913792A5EB"
+			tasks: [
+				{
+					id: "6A92F3D8DD36ED8C"
+					item: { count: 1, id: "cataclysm:monstrous_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_monstrosity"
+					criterion: ""
+					id: "4277D845953E7DB1"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["764AAE99E3FE82FF"]
+			disable_toast: true
+			id: "333A579B232BE1B0"
+			tasks: [
+				{
+					id: "53B21B4266580A90"
+					item: { count: 1, id: "cataclysm:abyss_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_leviathan"
+					criterion: ""
+					id: "58643024B127DF9F"
+					type: "advancement"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["764AAE99E3FE82FF"]
+			disable_toast: true
+			id: "4D27CBF725BBA297"
+			tasks: [
+				{
+					id: "06E8DD3592D345F4"
+					item: { count: 1, id: "cataclysm:desert_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_remnant"
+					criterion: ""
+					id: "66CA989DDE6F78E6"
+					type: "advancement"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["764AAE99E3FE82FF"]
+			disable_toast: true
+			id: "3A0271A522EB2300"
+			tasks: [
+				{
+					id: "56322DAAFBCD9C69"
+					item: { count: 1, id: "cataclysm:cursed_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_maledictus"
+					criterion: ""
+					id: "4EC7C94B57D04AC6"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["764AAE99E3FE82FF"]
+			disable_toast: true
+			id: "63B09E008894F119"
+			tasks: [
+				{
+					id: "6BDD644A81E0EF85"
+					item: { count: 1, id: "cataclysm:storm_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_scylla"
+					criterion: ""
+					id: "616DC9AD90C6F237"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4048775E2BC6B1AD"
+				"75AB73887516E46C"
+			]
+			id: "0587FA424CC08231"
+			tasks: [{
+				id: "7A4DCA77351E153D"
+				item: { count: 1, id: "apotheosis:potion_charm" }
+				tags: ["unbreakable"]
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4048775E2BC6B1AD"
+				"2953A4532EAF1287"
+			]
+			id: "4E870073F0ADFF48"
+			tasks: [{
+				id: "72CFD00EF8085FDD"
+				item: { count: 1, id: "apothic_enchanting:ender_library" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			id: "52890953AD375A83"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "13B689DB716BC183"
+				item: { count: 1, id: "apotheosis:sigil_of_supremacy" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D71797F54B91B1B"]
+			dependency_requirement: "all_started"
+			id: "2EC8AF45803C21E6"
+			tasks: [{
+				advancement: "apotheosis:gateways/pinnacle"
+				criterion: ""
+				id: "06FD33E6A815FA21"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"2EC8AF45803C21E6"
+				"6468C1664F101BBC"
+				"71549B03CA17EF43"
+				"4AECA3913792A5EB"
+				"73A7B61CDA506412"
+				"333A579B232BE1B0"
+				"4D27CBF725BBA297"
+				"3A0271A522EB2300"
+				"63B09E008894F119"
+			]
+			disable_toast: true
+			id: "342A3E6806ECC83D"
+			optional: true
+			rewards: [{
+				id: "7C2F1C1A114C7251"
+				item: {
+					components: {
+						"gateways:gateway": "apotheosis:endless_invader"
+					}
+					count: 1
+					id: "gateways:gate_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57EB21E1F3BBCEBA"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

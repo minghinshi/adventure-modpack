@@ -1,0 +1,21 @@
+[
+    {
+        "dimId": "minecraft:overworld"
+    },
+    {
+        "dimId": "minecraft:the_nether",
+        "seaLevel": 0,
+        "alwaysOutside": true
+    },
+    {
+        "dimId": "minecraft:the_end",
+        "seaLevel": 0,
+        "cloudHeight": 128,
+        "alwaysOutside": true
+    },
+    {
+        "dimId": "twilightforest:twilight_forest",
+        "seaLevel": 0,
+        "cloudHeight": 128
+    }
+]

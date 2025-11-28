@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "helpful_mods"
+	group: "303C2E7D834AC05D"
+	id: "7C1BA425D72C0C6B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

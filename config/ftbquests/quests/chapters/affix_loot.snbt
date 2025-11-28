@@ -1,0 +1,347 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "affix_loot"
+	group: "303C2E7D834AC05D"
+	icon: {
+		id: "minecraft:chest"
+	}
+	id: "66354C38AB457A6D"
+	order_index: 1
+	quest_links: [
+		{
+			id: "15CDD22DF3EC1D63"
+			linked_quest: "7C06C5FEEB1183B5"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7B4BEDC71E56880E"
+			linked_quest: "5B4FB79CC753AA78"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "093843398A78DC54"
+			linked_quest: "2B0436CFF562CF82"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "6061327831A90985"
+			linked_quest: "53CCF3903001AC9F"
+			x: 0.0d
+			y: 7.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["7C06C5FEEB1183B5"]
+			id: "4D58A12EE366E725"
+			tasks: [{
+				id: "0B319C3CF7FDB02C"
+				item: { components: { "minecraft:damage": 60 }, count: 1, id: "minecraft:leather_chestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C06C5FEEB1183B5"]
+			id: "5D83DB81E052BAEE"
+			tasks: [{
+				id: "794ABBCC73E27117"
+				item: { components: { "minecraft:damage": 98 }, count: 1, id: "minecraft:stone_sword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C06C5FEEB1183B5"]
+			id: "189E09BAED544536"
+			tasks: [{
+				id: "1D98E7C4FB7D22D5"
+				item: { components: { "minecraft:damage": 180 }, count: 1, id: "minecraft:chainmail_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C06C5FEEB1183B5"]
+			id: "28DD98F1E6FE4EE4"
+			tasks: [{
+				id: "0DDF8077264A2B3D"
+				item: { components: { "minecraft:damage": 84 }, count: 1, id: "minecraft:golden_chestplate" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B4FB79CC753AA78"]
+			id: "3788AA4F38C4C36C"
+			tasks: [{
+				id: "3C1842553E54D1C4"
+				item: { components: { "minecraft:damage": 180 }, count: 1, id: "minecraft:iron_chestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B4FB79CC753AA78"]
+			id: "1C38ABA4465496C2"
+			tasks: [{
+				id: "5D49358EA8B1B885"
+				item: { components: { "minecraft:damage": 187 }, count: 1, id: "minecraft:iron_sword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B0436CFF562CF82"]
+			id: "340BF6A2309565DE"
+			tasks: [{
+				id: "2D5D4AC9595CADA8"
+				item: { components: { "minecraft:damage": 396 }, count: 1, id: "minecraft:diamond_chestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2B0436CFF562CF82"]
+			id: "317B7E17A76561BA"
+			tasks: [{
+				id: "6783C3D422CC570F"
+				item: { components: { "minecraft:damage": 1170 }, count: 1, id: "minecraft:diamond_sword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53CCF3903001AC9F"]
+			id: "5DEEFBD1B0F89AA6"
+			tasks: [{
+				id: "254D162D34780A58"
+				item: { components: { "minecraft:damage": 444 }, count: 1, id: "minecraft:netherite_chestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["53CCF3903001AC9F"]
+			id: "018CA94ACAD48F77"
+			tasks: [{
+				id: "0A49E3490FF4B813"
+				item: { components: { "minecraft:damage": 1523 }, count: 1, id: "minecraft:netherite_sword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2B0436CFF562CF82"]
+			id: "73D11DB744EEFAC0"
+			tasks: [{
+				id: "389F2B2A5777B417"
+				item: { components: { "minecraft:damage": 187 }, count: 1, id: "minecraft:trident" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B0436CFF562CF82"]
+			id: "21BF5CCE25853687"
+			tasks: [{
+				id: "63AD6B184D9211A4"
+				item: { components: { "minecraft:damage": 120 }, count: 1, id: "twilightforest:arctic_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53CCF3903001AC9F"]
+			id: "5D2D62B5C9CDBCAB"
+			tasks: [{
+				id: "601E87CE69B301FA"
+				item: { components: { "minecraft:damage": 288 }, count: 1, id: "twilightforest:ender_bow" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2B0436CFF562CF82"]
+			id: "43A4E48FF988751A"
+			tasks: [{
+				id: "7A718B99FB642E52"
+				item: { components: { "minecraft:damage": 300 }, count: 1, id: "twilightforest:fiery_chestplate" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2B0436CFF562CF82"]
+			id: "070C58D620637415"
+			tasks: [{
+				id: "3BD407F8877FAB8D"
+				item: { components: { "minecraft:damage": 768 }, count: 1, id: "twilightforest:fiery_sword" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53CCF3903001AC9F"]
+			id: "4923454ED800D08A"
+			tasks: [{
+				id: "7F015231F8D98682"
+				item: { components: { "minecraft:damage": 768 }, count: 1, id: "twilightforest:giant_sword" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["53CCF3903001AC9F"]
+			id: "35C30D0870D7C6A1"
+			tasks: [{
+				id: "0F284B556A36C01E"
+				item: { count: 1, id: "twilightforest:glass_sword" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["53CCF3903001AC9F"]
+			id: "036B2C645ADBEE19"
+			tasks: [{
+				id: "71C06F770609EDFD"
+				item: { components: { "minecraft:damage": 288 }, count: 1, id: "twilightforest:ice_bow" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2B0436CFF562CF82"]
+			id: "17029A66838FF47F"
+			tasks: [{
+				id: "032DE48A27175479"
+				item: { components: { "minecraft:damage": 24 }, count: 1, id: "twilightforest:ice_sword" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5B4FB79CC753AA78"]
+			id: "5C17F406E9C29662"
+			tasks: [{
+				id: "69A5F79CEF441097"
+				item: { components: { "minecraft:damage": 384, "minecraft:enchantments": { levels: { "minecraft:knockback": 1 } } }, count: 1, id: "twilightforest:ironwood_sword" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B4FB79CC753AA78"]
+			id: "45F2195BEB4CF62C"
+			tasks: [{
+				id: "4F4C7FFF152E29C9"
+				item: { components: { "minecraft:damage": 240, "minecraft:enchantments": { levels: { "minecraft:protection": 1 } } }, count: 1, id: "twilightforest:ironwood_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B0436CFF562CF82"]
+			id: "5CD11F982F8DDE1D"
+			tasks: [{
+				id: "4257A4F6556D4577"
+				item: { components: { "minecraft:damage": 240 }, count: 1, id: "twilightforest:knightmetal_chestplate" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2B0436CFF562CF82"]
+			id: "18FBB1C12ED80E86"
+			tasks: [{
+				id: "763B9FEA0E954E41"
+				item: { components: { "minecraft:damage": 384 }, count: 1, id: "twilightforest:knightmetal_sword" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["53CCF3903001AC9F"]
+			id: "440E161675E21843"
+			tasks: [{
+				id: "400910CE0E7EB403"
+				item: { components: { "minecraft:damage": 288 }, count: 1, id: "twilightforest:seeker_bow" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5B4FB79CC753AA78"]
+			id: "4E6DC252AE69525C"
+			tasks: [{
+				id: "519E7653E1034255"
+				item: { components: { "minecraft:damage": 120, "minecraft:enchantments": { levels: { "minecraft:blast_protection": 2 } } }, count: 1, id: "twilightforest:steeleaf_chestplate" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B4FB79CC753AA78"]
+			id: "0AD23685F3CD9629"
+			tasks: [{
+				id: "4E3A76BBD9671EAB"
+				item: { components: { "minecraft:damage": 98, "minecraft:enchantments": { levels: { "minecraft:looting": 2 } } }, count: 1, id: "twilightforest:steeleaf_sword" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53CCF3903001AC9F"]
+			id: "7909903C3F6F86E8"
+			tasks: [{
+				id: "681E10A49400CD4B"
+				item: { components: { "minecraft:damage": 288 }, count: 1, id: "twilightforest:triple_bow" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["53CCF3903001AC9F"]
+			id: "3A07DE5A0397591F"
+			tasks: [{
+				id: "535B9A1638604FE7"
+				item: { components: { "minecraft:damage": 240, "minecraft:enchantments": { levels: { "minecraft:protection": 2 } } }, count: 1, id: "twilightforest:yeti_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+	]
+}

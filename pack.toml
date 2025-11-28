@@ -1,0 +1,13 @@
+name = "minghinshi's Test"
+author = "minghinshi"
+version = "0.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9f4599b6ffede8878b72ce4a35555d722ea6214276966dae29746e3df53fec98"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.215"

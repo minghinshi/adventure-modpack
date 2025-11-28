@@ -1,0 +1,405 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_ascent"
+	group: "0CDBBA537B0A5FD4"
+	icon: {
+		id: "minecraft:diamond_sword"
+	}
+	id: "10AE9179F0394825"
+	order_index: 1
+	quest_links: [
+		{
+			id: "506B99FDCC3E3006"
+			linked_quest: "2B0436CFF562CF82"
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			id: "69A57CEC9A9A7032"
+			linked_quest: "1BFCCFB266C76256"
+			x: 6.0d
+			y: 3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["24358AC5D4D3E054"]
+			id: "497F4AE0C839C5ED"
+			tasks: [{
+				id: "2E4C3CB5BD6F8533"
+				item: { count: 1, id: "apothic_enchanting:filtering_shelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "566E9FF8FFC166AE"
+			tasks: [{
+				id: "0B2836859FB4FCFB"
+				structure: "minecraft:monument"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["68ADFC155A6F5C26"]
+			id: "24358AC5D4D3E054"
+			tasks: [
+				{
+					id: "5CD2B6624D328069"
+					item: { count: 1, id: "apothic_enchanting:infused_hellshelf" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4953418143FA62AE"
+					item: { count: 1, id: "apothic_enchanting:infused_seashelf" }
+					only_from_crafting: false
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0DFD86C3D00858E9"
+				"566E9FF8FFC166AE"
+			]
+			dependency_requirement: "one_completed"
+			id: "68ADFC155A6F5C26"
+			tasks: [
+				{
+					id: "6703C6DAE5DE0ADC"
+					item: { count: 1, id: "apothic_enchanting:hellshelf" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "18433DCAE1B67807"
+					item: { count: 1, id: "apothic_enchanting:seashelf" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			id: "0DFD86C3D00858E9"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "280DCFDCFBC5A880"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0DFD86C3D00858E9"]
+			id: "75AB73887516E46C"
+			tasks: [{
+				id: "1475E601FE2F522C"
+				item: { count: 1, id: "apotheosis:potion_charm" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["49E64A5247D032E1"]
+			disable_toast: true
+			id: "5106088558C48AFA"
+			tasks: [{
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+				id: "056DD286381C3B30"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C7C16C7F66BA2AA"]
+			disable_toast: true
+			id: "2791254DCC04B24C"
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "30EB4B0BA4CCA7F9"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BC09EA6EDA55E9C"]
+			disable_toast: true
+			id: "0C7C16C7F66BA2AA"
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "0364B5EAECF0732E"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BC09EA6EDA55E9C"]
+			disable_toast: true
+			id: "49E64A5247D032E1"
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "17C9F4D30C112CBC"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["041ECA8009260D9F"]
+			disable_toast: true
+			id: "7BC09EA6EDA55E9C"
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "52E3380D4612BD6D"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B937ADF629BF630"]
+			disable_toast: true
+			id: "041ECA8009260D9F"
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				id: "59719D9D704E6FAA"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09CB494FB1A22AA2"]
+			id: "3B937ADF629BF630"
+			tasks: [{
+				id: "4C47F3BB087906AE"
+				item: { count: 1, id: "twilightforest:magic_map" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "09CB494FB1A22AA2"
+			tasks: [{
+				advancement: "twilightforest:root"
+				criterion: ""
+				id: "15DAB20019016695"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"703251F4DAF687BF"
+				"2791254DCC04B24C"
+				"5106088558C48AFA"
+				"0614D4BFED789272"
+			]
+			disable_toast: true
+			icon: {
+				components: {
+					"minecraft:damage": 1523
+				}
+				id: "minecraft:netherite_sword"
+			}
+			id: "53CCF3903001AC9F"
+			rewards: [{
+				advancement: "apotheosis:progression/summit"
+				auto: "no_toast"
+				criterion: ""
+				id: "1452881715D675A4"
+				type: "advancement"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "37E5E3FE96A3F863"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0DFD86C3D00858E9"]
+			disable_toast: true
+			id: "703251F4DAF687BF"
+			tasks: [{
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+				id: "7D81985CA8E81772"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B0436CFF562CF82"]
+			disable_toast: true
+			id: "0614D4BFED789272"
+			tasks: [
+				{
+					id: "7CDA961BD350A6B4"
+					item: { components: { "gateways:gateway": "apotheosis:tiered/ascent" }, count: 1, id: "gateways:gate_pearl" }
+					type: "item"
+				}
+				{
+					advancement: "apotheosis:gateways/ascent"
+					criterion: ""
+					id: "150AD94796F49D0A"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			id: "13A90A5F1E372F57"
+			tasks: [{
+				id: "55587A52DE2D103B"
+				item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "1E9B9ABEC0C9C4BC"
+			tasks: [{
+				id: "23CF10C9C2AF91DB"
+				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			id: "1101528C7885F782"
+			tasks: [{
+				id: "633353319F5A0413"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				components: {
+					"minecraft:potion_contents": {
+						potion: "apothic_attributes:knowledge"
+					}
+				}
+				id: "minecraft:potion"
+			}
+			id: "1D5945876631BB6F"
+			tasks: [{
+				id: "624D7DB356D19231"
+				item: { components: { "ftbfiltersystem:filter": "component(fuzzy:{\"minecraft:potion_contents\":{potion:\"apothic_attributes:long_knowledge\"}})" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3B937ADF629BF630"]
+			icon: {
+				id: "twilightforest:ironwood_pickaxe"
+			}
+			id: "585EC8356C1262F5"
+			tasks: [
+				{
+					advancement: "twilightforest:hill1"
+					criterion: ""
+					id: "33CC159B9D5431C0"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "twilightforest:hill2"
+					criterion: ""
+					id: "698C1F75980A4F05"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "twilightforest:hill3"
+					criterion: ""
+					id: "5EE1F7B037F19DA0"
+					optional_task: true
+					type: "advancement"
+				}
+			]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1BFCCFB266C76256"
+				"0DFD86C3D00858E9"
+			]
+			id: "138C7EDA95C62BBA"
+			tasks: [{
+				id: "62052BD267F335DF"
+				item: { count: 1, id: "apotheosis:reforging_table" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["68ADFC155A6F5C26"]
+			id: "01752B1F045B5379"
+			tasks: [{
+				id: "29E1252190F8146B"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["566E9FF8FFC166AE"]
+			id: "2A191EA4871F8853"
+			tasks: [{
+				id: "351E438E8D16F2D6"
+				item: { count: 1, id: "apothic_enchanting:prismatic_web" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["24358AC5D4D3E054"]
+			id: "3054343AD7F7DCAC"
+			tasks: [{
+				id: "6CE7FD8665B0B66D"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+	]
+}
