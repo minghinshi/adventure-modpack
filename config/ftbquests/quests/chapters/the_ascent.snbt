@@ -10,16 +10,16 @@
 	order_index: 1
 	quest_links: [
 		{
-			id: "506B99FDCC3E3006"
-			linked_quest: "2B0436CFF562CF82"
-			x: 11.0d
-			y: 4.5d
-		}
-		{
 			id: "69A57CEC9A9A7032"
 			linked_quest: "1BFCCFB266C76256"
-			x: 6.0d
-			y: 3.0d
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			id: "0B1005B11EEC7BF8"
+			linked_quest: "2330BF6AD8AB6E4E"
+			x: 3.0d
+			y: 1.5d
 		}
 	]
 	quests: [
@@ -31,7 +31,7 @@
 				item: { count: 1, id: "apothic_enchanting:filtering_shelf" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -41,7 +41,7 @@
 				structure: "minecraft:monument"
 				type: "structure"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
@@ -62,7 +62,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 3.0d
 			y: 4.5d
 		}
 		{
@@ -86,7 +86,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 5.0d
 			y: 4.5d
 		}
 		{
@@ -98,7 +98,7 @@
 				id: "280DCFDCFBC5A880"
 				type: "advancement"
 			}]
-			x: 9.0d
+			x: 7.0d
 			y: 4.5d
 		}
 		{
@@ -109,8 +109,8 @@
 				item: { count: 1, id: "apotheosis:potion_charm" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["49E64A5247D032E1"]
@@ -122,7 +122,7 @@
 				id: "056DD286381C3B30"
 				type: "advancement"
 			}]
-			x: 9.0d
+			x: 7.0d
 			y: 1.5d
 		}
 		{
@@ -135,7 +135,7 @@
 				id: "30EB4B0BA4CCA7F9"
 				type: "advancement"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -148,7 +148,7 @@
 				id: "0364B5EAECF0732E"
 				type: "advancement"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -161,7 +161,7 @@
 				id: "17C9F4D30C112CBC"
 				type: "advancement"
 			}]
-			x: 7.0d
+			x: 5.0d
 			y: 1.5d
 		}
 		{
@@ -174,7 +174,7 @@
 				id: "52E3380D4612BD6D"
 				type: "advancement"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -187,7 +187,7 @@
 				id: "59719D9D704E6FAA"
 				type: "advancement"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -198,7 +198,7 @@
 				item: { count: 1, id: "twilightforest:magic_map" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -210,8 +210,8 @@
 				id: "15DAB20019016695"
 				type: "advancement"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -240,7 +240,7 @@
 				id: "37E5E3FE96A3F863"
 				type: "checkmark"
 			}]
-			x: 11.0d
+			x: 9.0d
 			y: 1.5d
 		}
 		{
@@ -253,7 +253,7 @@
 				id: "7D81985CA8E81772"
 				type: "advancement"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 3.0d
 		}
 		{
@@ -273,7 +273,7 @@
 					type: "advancement"
 				}
 			]
-			x: 12.0d
+			x: 10.0d
 			y: 3.0d
 		}
 		{
@@ -283,7 +283,7 @@
 				item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 6.0d
 		}
 		{
@@ -293,7 +293,7 @@
 				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 1.0d
 			y: 7.5d
 		}
 		{
@@ -321,8 +321,8 @@
 				item: { components: { "ftbfiltersystem:filter": "component(fuzzy:{\"minecraft:potion_contents\":{potion:\"apothic_attributes:long_knowledge\"}})" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3B937ADF629BF630"]
@@ -353,7 +353,7 @@
 					type: "advancement"
 				}
 			]
-			x: 5.0d
+			x: 1.0d
 			y: 1.5d
 		}
 		{
@@ -368,7 +368,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["68ADFC155A6F5C26"]
@@ -377,7 +377,7 @@
 				id: "29E1252190F8146B"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 6.0d
 		}
 		{
@@ -398,8 +398,79 @@
 				id: "6CE7FD8665B0B66D"
 				type: "checkmark"
 			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"68ADFC155A6F5C26"
+				"2330BF6AD8AB6E4E"
+			]
+			id: "4A96EB1B721C412E"
+			tasks: [{
+				id: "6FCD814D59398CA6"
+				item: { count: 1, id: "apothic_enchanting:ender_lead" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["0DFD86C3D00858E9"]
+			icon: {
+				id: "minecraft:comparator"
+			}
+			id: "7DFD304295DF106A"
+			tasks: [
+				{
+					id: "7FB5C9232121F094"
+					item: { count: 1, id: "minecraft:comparator" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5F66FDDF68B055E6"
+					item: { count: 1, id: "minecraft:ghast_tear" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1269BE18B0BFB514"
+					item: { count: 1, id: "minecraft:nether_star" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7CE1710F8260997B"
+					item: { count: 1, id: "minecraft:soul_lantern" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["566E9FF8FFC166AE"]
+			id: "23FD2FE2FD5CD5B1"
+			tasks: [{
+				id: "2F48BBB48F12E7F9"
+				item: { count: 1, id: "minecraft:prismarine_crystals" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["24358AC5D4D3E054"]
+			id: "0A1125DD336E593A"
+			tasks: [{
+				id: "2E215C3B1390162E"
+				item: { count: 1, id: "apothic_enchanting:geode_shelf" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
 		}
 	]
 }

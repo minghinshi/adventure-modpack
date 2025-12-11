@@ -10,16 +10,16 @@
 	order_index: 2
 	quest_links: [
 		{
-			id: "099EDFDE0E4B2060"
-			linked_quest: "7BC09EA6EDA55E9C"
-			x: -2.0d
-			y: 0.0d
-		}
-		{
 			id: "56FF4E8B4F904BB1"
 			linked_quest: "24358AC5D4D3E054"
-			x: -2.0d
-			y: 3.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "19671E7AFBC44142"
+			linked_quest: "4A96EB1B721C412E"
+			x: 5.0d
+			y: 6.0d
 		}
 	]
 	quests: [
@@ -33,7 +33,7 @@
 				id: "2272B2931D67C0BD"
 				type: "advancement"
 			}]
-			x: 8.0d
+			x: 11.0d
 			y: 0.0d
 		}
 		{
@@ -46,7 +46,7 @@
 				id: "3176BDF0F4E27FD3"
 				type: "advancement"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -63,7 +63,7 @@
 				id: "0C2EAE8531897710"
 				type: "advancement"
 			}]
-			x: 4.0d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -76,7 +76,7 @@
 				id: "6EB53722EA60024F"
 				type: "advancement"
 			}]
-			x: 2.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -89,7 +89,7 @@
 				id: "45D7683A493A1F69"
 				type: "advancement"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -99,41 +99,73 @@
 				id: "minecraft:dragon_head"
 			}
 			id: "192647352173D10B"
-			tasks: [{
-				advancement: "minecraft:end/kill_dragon"
-				criterion: ""
-				id: "18B3FB3232B2B0DB"
-				type: "advancement"
-			}]
-			x: 7.0d
-			y: 1.5d
+			tasks: [
+				{
+					count: 16L
+					id: "60AF1FE9860DA37B"
+					item: { count: 1, id: "minecraft:glass_bottle" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "575A0ED9C372D640"
+					item: { count: 1, id: "minecraft:dragon_breath" }
+					type: "item"
+				}
+				{
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
+					id: "18B3FB3232B2B0DB"
+					type: "advancement"
+				}
+			]
+			x: 11.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
-				"7BF7A2EEE6F5BC6C"
+				"0B49BD96FB5416F5"
 				"53CCF3903001AC9F"
 			]
+			icon: {
+				id: "minecraft:ender_eye"
+			}
 			id: "764AAE99E3FE82FF"
-			tasks: [{
-				id: "17533C81495A618D"
-				item: { count: 1, id: "minecraft:ender_eye" }
-				type: "item"
-			}]
-			x: 6.0d
+			tasks: [
+				{
+					id: "30E103FD7B93E135"
+					item: { count: 1, id: "apotheosis:mythic_material" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "17533C81495A618D"
+					item: { count: 1, id: "minecraft:ender_eye" }
+					type: "item"
+				}
+			]
+			x: 9.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["764AAE99E3FE82FF"]
 			disable_toast: true
 			id: "16CD71AACA948C5A"
-			tasks: [{
-				advancement: "apotheosis:gateways/summit"
-				criterion: ""
-				id: "14670DDD81D60FE4"
-				type: "advancement"
-			}]
-			x: 8.0d
-			y: 3.0d
+			tasks: [
+				{
+					id: "2E77289086BD812E"
+					item: { components: { "gateways:gateway": "apotheosis:tiered/summit" }, count: 1, id: "gateways:gate_pearl" }
+					type: "item"
+				}
+				{
+					advancement: "apotheosis:gateways/summit"
+					criterion: ""
+					id: "14670DDD81D60FE4"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -158,20 +190,8 @@
 				id: "297DE4ECBDF58B73"
 				type: "checkmark"
 			}]
-			x: 9.0d
+			x: 12.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["764AAE99E3FE82FF"]
-			id: "55DC643E3283B8B2"
-			tasks: [{
-				count: 16L
-				id: "1A70CEEAE3A83BC5"
-				item: { count: 1, id: "minecraft:dragon_breath" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 4.5d
 		}
 		{
 			dependencies: ["764AAE99E3FE82FF"]
@@ -181,31 +201,29 @@
 				item: { count: 1, id: "apothic_enchanting:library" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["6728053261281854"]
-			disable_toast: true
-			id: "7BF7A2EEE6F5BC6C"
-			tasks: [{
-				advancement: "apothic_enchanting:80ench"
-				criterion: ""
-				id: "0DB84B03EEB1ADA8"
-				type: "advancement"
-			}]
-			x: 4.0d
-			y: 3.0d
+			x: 10.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1FDEF45943BAD109"]
+			icon: {
+				id: "minecraft:sculk_shrieker"
+			}
 			id: "6728053261281854"
-			tasks: [{
-				id: "0209403045603D9D"
-				structure: "minecraft:ancient_city"
-				type: "structure"
-			}]
-			x: 2.0d
+			tasks: [
+				{
+					id: "71865CA5E1B43035"
+					item: { count: 1, id: "irons_spellbooks:magic_cloth" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0209403045603D9D"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+			]
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -216,7 +234,7 @@
 				item: { count: 1, id: "apothic_enchanting:deepshelf" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 3.0d
 		}
 		{
@@ -227,18 +245,102 @@
 				item: { count: 1, id: "apothic_enchanting:treasure_shelf" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.5d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["764AAE99E3FE82FF"]
+			icon: {
+				components: {
+					"gateways:gateway": "gateways:emerald_grove"
+				}
+				id: "gateways:gate_pearl"
+			}
 			id: "0C1D044EEA9F89A1"
 			tasks: [{
 				id: "64930ABF02C2678B"
 				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"gateways:gateway\":\"gateways:emerald_grove\"})component(fuzzy:{\"gateways:gateway\":\"gateways:overworldian_nights\"})component(fuzzy:{\"gateways:gateway\":\"gateways:hellish_fortress\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6728053261281854"]
+			id: "29FC3854F5DAAAF5"
+			tasks: [{
+				id: "52D7D9D9D3BF7489"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F606FB0E16E4FDB"]
+			icon: {
+				id: "apothic_enchanting:echoing_sculkshelf"
+			}
+			id: "0B49BD96FB5416F5"
+			tasks: [
+				{
+					id: "1537B996F55BEA2A"
+					item: { count: 1, id: "apothic_enchanting:echoing_sculkshelf" }
+					type: "item"
+				}
+				{
+					id: "14A4CBD8DEDB4219"
+					item: { count: 1, id: "apothic_enchanting:soul_touched_sculkshelf" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6728053261281854"]
+			id: "6F606FB0E16E4FDB"
+			tasks: [{
+				id: "58315070AC514A81"
+				item: { count: 1, id: "apothic_enchanting:warden_tendril" }
+				type: "item"
+			}]
 			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0B49BD96FB5416F5"
+				"4A96EB1B721C412E"
+			]
+			id: "78BD6004F9F6B8D7"
+			tasks: [{
+				id: "5BB88BC035558183"
+				item: { count: 1, id: "apothic_enchanting:occult_ender_lead" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53CCF3903001AC9F"]
+			icon: {
+				id: "apotheosis:augmenting_table"
+			}
+			id: "188FAC49C9FC5963"
+			tasks: [
+				{
+					id: "6383E7FEFB885CFA"
+					item: { count: 1, id: "apotheosis:sigil_of_enhancement" }
+					type: "item"
+				}
+				{
+					id: "4BD539BA7D5D9334"
+					item: { count: 1, id: "apotheosis:augmenting_table" }
+					type: "item"
+				}
+			]
+			x: 2.0d
 			y: 4.5d
 		}
 	]

@@ -3,8 +3,60 @@
 	default_quest_shape: ""
 	filename: "helpful_mods"
 	group: "303C2E7D834AC05D"
+	icon: {
+		id: "minecraft:book"
+	}
 	id: "7C1BA425D72C0C6B"
 	order_index: 0
-	quest_links: [ ]
-	quests: [ ]
+	quest_links: [{
+		id: "1D495C56093650AB"
+		linked_quest: "27025F4E5B713F7B"
+		x: -1.0d
+		y: 1.5d
+	}]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:apple"
+			}
+			id: "5884B75C5C1D3B69"
+			tasks: [{
+				id: "68151D70C3C3F498"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5884B75C5C1D3B69"]
+			id: "2232FACBCF9ED639"
+			tasks: [{
+				id: "5922AAEE7DC1EEEC"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27025F4E5B713F7B"]
+			icon: {
+				id: "ae2:controller"
+			}
+			id: "0911B4E744CD7E54"
+			rewards: [{
+				id: "72C4E2F16353AF23"
+				item: {
+					count: 1
+					id: "ae2:guide"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "54B26D3B7CD1E05A"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+	]
 }

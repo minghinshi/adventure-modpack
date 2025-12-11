@@ -7,6 +7,14 @@
 		id: "minecraft:iron_sword"
 	}
 	id: "4843A8AC868B88BE"
+	images: [{
+		height: 1.0d
+		image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
+		rotation: 0.0d
+		width: 1.5d
+		x: 0.0d
+		y: 3.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -30,8 +38,8 @@
 				id: "71FFF07BD8032345"
 				type: "advancement"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: 6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7C06C5FEEB1183B5"]
@@ -43,8 +51,8 @@
 				id: "7771E45304DD0C33"
 				type: "advancement"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5B4FB79CC753AA78"]
@@ -63,8 +71,8 @@
 					type: "advancement"
 				}
 			]
-			x: 5.0d
-			y: -1.5d
+			x: 10.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["59B987C1C531CB03"]
@@ -85,8 +93,8 @@
 				id: "2B3DE5E4D86F6411"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: -1.5d
+			x: 12.5d
+			y: 1.5d
 		}
 		{
 			icon: {
@@ -105,8 +113,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -119,8 +127,8 @@
 				item: { count: 1, id: "apotheosis:salvaging_table" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["11721DEDF60D1DAF"]
@@ -130,8 +138,8 @@
 				item: { count: 1, id: "apotheosis:gem_cutting_table" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["11721DEDF60D1DAF"]
@@ -151,8 +159,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			id: "04A22AB0B8CBF3EC"
@@ -161,8 +169,8 @@
 				item: { count: 1, id: "waystones:warp_dust" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["04A22AB0B8CBF3EC"]
@@ -172,8 +180,8 @@
 				item: { count: 1, id: "waystones:waystone" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: 9.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4ED49F5179E8F8E5"]
@@ -183,8 +191,8 @@
 				item: { count: 1, id: "waystones:warp_scroll" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -3.0d
+			x: 11.5d
+			y: 6.0d
 		}
 		{
 			id: "79421A922A820D2B"
@@ -193,8 +201,8 @@
 				item: { count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.5d
+			x: 8.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["79421A922A820D2B"]
@@ -214,8 +222,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -4.5d
+			x: 10.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3450D2144D2DD481"]
@@ -228,8 +236,8 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(irons_spellbooks:staff)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.5d
+			x: 12.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2FA965C4A57055BA"]
@@ -239,8 +247,8 @@
 				item: { count: 1, id: "apotheosis:sigil_of_socketing" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2FA965C4A57055BA"]
@@ -250,10 +258,13 @@
 				item: { count: 1, id: "apotheosis:sigil_of_withdrawal" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.5d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
+			icon: {
+				id: "ae2:creative_energy_cell"
+			}
 			id: "27025F4E5B713F7B"
 			rewards: [
 				{
@@ -345,17 +356,19 @@
 				id: "082EDFF82A496F8C"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: -3.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			id: "42F7D44564CF58FE"
 			tasks: [{
-				id: "0E8E8A093750DBD0"
-				item: { count: 1, id: "minecraft:spawner" }
-				type: "item"
+				advancement: "apothic_spawners:root"
+				criterion: ""
+				disable_toast: true
+				id: "40A222A26CB4D98D"
+				type: "advancement"
 			}]
-			x: 8.0d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -366,52 +379,61 @@
 			id: "53B26F6284EF8F3D"
 			tasks: [
 				{
-					id: "510C66BDE687CDAD"
+					id: "365F04C37DDC7002"
 					item: { count: 1, id: "minecraft:turtle_egg" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "48D83B58443B0A97"
 					item: { count: 1, id: "minecraft:piston" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0D7A954EC7B8D285"
 					item: { count: 1, id: "minecraft:fermented_spider_eye" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "28958A2095AF9A1C"
 					item: { count: 1, id: "minecraft:white_wool" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "63860B327A70EF69"
 					item: { count: 1, id: "minecraft:sugar" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3627F2D928002F9C"
 					item: { count: 1, id: "minecraft:clock" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "369974A4E1D9DA98"
 					item: { count: 1, id: "minecraft:pointed_dripstone" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "195DE364AA747B3F"
 					item: { count: 1, id: "minecraft:conduit" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "649212DB1857A983"
 					item: { count: 1, id: "minecraft:campfire" }
+					optional_task: true
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 11.5d
 			y: 0.0d
 		}
 		{
@@ -420,8 +442,8 @@
 				id: "23CB9CE2179F9788"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: 1.5d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			disable_toast: true
@@ -432,8 +454,8 @@
 				id: "70A9620F1D55EFAC"
 				type: "advancement"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			id: "6FF9C3E7459BAD8F"
@@ -442,8 +464,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -456,8 +478,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:copper_backpack" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: 6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3450D2144D2DD481"]
@@ -466,8 +488,8 @@
 				id: "0962F872E7D6A26A"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: 9.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3450D2144D2DD481"]
@@ -497,8 +519,46 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -3.0d
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			id: "2330BF6AD8AB6E4E"
+			tasks: [{
+				id: "1D851853DFC8B1B5"
+				item: { count: 1, id: "apothic_enchanting:flimsy_ender_lead" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FF9C3E7459BAD8F"]
+			icon: {
+				id: "sophisticatedbackpacks:pickup_upgrade"
+			}
+			id: "6734AC241B6394D3"
+			tasks: [{
+				id: "216F2278EC409D89"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedbackpacks:upgrade)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["11721DEDF60D1DAF"]
+			icon: {
+				id: "apotheosis:diamond_upgrade_smithing_template"
+			}
+			id: "38B9283BAEB79A51"
+			tasks: [{
+				id: "3196CBCB6506874B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apotheosis:iron_upgrade_smithing_template)item(apotheosis:gold_upgrade_smithing_template)item(apotheosis:diamond_upgrade_smithing_template))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
 		}
 	]
 }

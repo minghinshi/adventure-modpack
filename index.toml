@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/MouseTweaks.cfg"
-hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
-
-[[files]]
 file = "config/NoChatReports/NCR-Client.json"
 hash = "edfe78d985fe67dce28104f3d87673e94c89134144451c291ecedcd2e2c3b480"
 
@@ -417,14 +413,6 @@ file = "config/chat_heads.json5"
 hash = "2e33e5590888ad9c37d35ef6ef29d50e8ab7430ee7fd572a69b3583428abebf9"
 
 [[files]]
-file = "config/clientsort-server.json"
-hash = "e3cf5f31b64de3d8a2d5634089deb809aea457bca4b35f79f7863c60fb1fbdaf"
-
-[[files]]
-file = "config/clientsort.json"
-hash = "b7e436f4c99ae95678fab6cca3737abe0a64e30f20de97c00a41a7dd78cd368f"
-
-[[files]]
 file = "config/curios-client.toml"
 hash = "8af475d222d452c40b548db89c8956f3e4d1e2aaf729464e3065f029936b3e0d"
 
@@ -461,10 +449,6 @@ file = "config/entityculling.json"
 hash = "f570276793f21eaf92350b54f88d7e6a30f1ed0849fdb71555210399b2b2ce70"
 
 [[files]]
-file = "config/extremesoundmuffler-client.toml"
-hash = "31a037801309182a27f91d011889c5487783e287a153ab3529359f984fd6c386"
-
-[[files]]
 file = "config/fastbench.cfg"
 hash = "b9f2753df740086016ae47d0f9b69521b1233546fd564bf2797ed93fd5c60efb"
 
@@ -490,7 +474,7 @@ hash = "4fd0c37d70778b85665ec4410f27b44a7f7508c8c77f3eda48bea4acaf3009e6"
 
 [[files]]
 file = "config/ftbquests-client.snbt"
-hash = "f4481c4f2533eda8e63073c18040926a73b15a5d88d7e71b8970110c0d84e959"
+hash = "1c90a2cba58d51566c782fab201e79c65a12f2aead7d8e5172ff84f3d873cb9e"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -498,27 +482,27 @@ hash = "819f3d4eda8cd2c4ab403550f92ae08495ea7b46f652e96942ccb024026d022f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/affix_loot.snbt"
-hash = "1c8759e5d5e08c8e87fec6f1820dd284015d624bb3de4de44540358ff4c9fde4"
+hash = "decf9b4f76f7bf555f478d38de0bf929287337422eaaa3db0be3d8e479af8fed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter.snbt"
-hash = "01fd5ee3e5154711815c8e714942b119dc7c9932af71c4869fef57199c3543b6"
+hash = "09c4c95e84ba560dd4a776fb26a4191a1abcf22fb81c7ee66d81c0c9ff238221"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/helpful_mods.snbt"
-hash = "2f994289ca1fe1bcafc69fb085806b89d1097ae726ceeb324740f324a62076c6"
+hash = "8b907adcf3261c8c2fe7fb3e446b5fb8bae0ca8f335bf564d4d1a2a6c8342a49"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_ascent.snbt"
-hash = "e1fa4cbd772c4f565a1a69ed81df99352b6c33468c1a48bc6288db33fbfa4292"
+hash = "2e09a8c0ba58e9d45be4b8f009599ce98d43efe8d737db09a67977cca47cbbae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_beginning.snbt"
-hash = "dcbf272039aea5350dcce47ab6c48f301e3a061d8796563c3db8d4a252cf574b"
+hash = "d2e4e277517cd19c8391bb5442c56df69002fcc2018a186d8b534f86dab86bba"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_summit.snbt"
-hash = "690d75dcf2cec9f74bc9f6d485b26838df9e1ed0442e33a8824cfae76e917b3e"
+hash = "55baa7974e36c01d6a7dd59eb5a1d7c4f3abbf4b86c630c2ce6a66457cc091b5"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -526,7 +510,7 @@ hash = "58ee5f7fc10ae0f46e20df0673d0216baf875d470cfc13f19b8b10a46ec62f14"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_gb.snbt"
-hash = "5b223b88e2a9cc6db0ac51e5ae59cf8019b0c2d28b2d902a9e949d59f51fdbbb"
+hash = "125715925f64db6a36b97c78b5a537bbba7341c37b9fcaf414d25cccc6814abf"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
@@ -545,12 +529,20 @@ file = "config/immediatelyfast.json"
 hash = "f2b7f219198f0a911d04b09f545f2c1256e8d114951443924878dc10963e16aa"
 
 [[files]]
+file = "config/inventoryessentials-common.toml"
+hash = "33d1702a2b346c8d20a77542b2cf1336636dee74c7f73cdb3c64cac80dbaf0d9"
+
+[[files]]
 file = "config/irons_spellbooks-client.toml"
 hash = "3fa2598d7de323567c85ebf73380be870d051381615daecc386d6366b4d7b9d4"
 
 [[files]]
-file = "config/irons_spellbooks-server.toml"
+file = "config/irons_spellbooks-server-1.toml.bak"
 hash = "55c7a71bfe367e681ac10e57e646cf40cb7610639eff9a74468588157509d8ea"
+
+[[files]]
+file = "config/irons_spellbooks-server.toml"
+hash = "5734581683f8b03d2d36ad5d4589e142a33e1f610eff3c59805adbbe897a9d26"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -598,7 +590,7 @@ hash = "755f199a3868224bdccb2a8ffd8f1a4eb2d96140757f444ba31f8d677a66034f"
 
 [[files]]
 file = "config/jei/jei-debug.ini"
-hash = "9e445273b8868aae630a7ec5b20ce5212aa813d855be81bcc874bd4aa43e16a4"
+hash = "960b16c7af6d62bbe7b58fb52216a8a15771bddecbeefab49a8614b7ca86dcbd"
 
 [[files]]
 file = "config/jei/jei-mod-id-format.ini"
@@ -607,6 +599,26 @@ hash = "6a91c09d1cabc1980d90ab102a03ec58c0551213ab16a459b599d768b334d054"
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
 hash = "bbe8a912dc893cd09e52e0f311d07162402ed55f5249a718653c91c07a649395"
+
+[[files]]
+file = "config/jei/world/local/AE2_Trial/lookupHistory.json"
+hash = "683a3eeb7976fe8bae558336f43b1936b852eb102e267260d68099ef712f3c70"
+
+[[files]]
+file = "config/jei/world/local/Test_World/bookmarks.json"
+hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
+
+[[files]]
+file = "config/jei/world/local/Test_World/lookupHistory.json"
+hash = "031be7d294ec56ef5c584b03ff81086e74d9dc0166a50a0ad38c0da0d7ac16e7"
+
+[[files]]
+file = "config/jei/world/local/World_Two/bookmarks.json"
+hash = "e91087f6828b5929040c63971a946e856ef806d9c18e17d4fda340d4b48030b1"
+
+[[files]]
+file = "config/jei/world/local/World_Two/lookupHistory.json"
+hash = "6354e0dc8d0c3f0149109557347a8e8a694c651d0842610b481e9fb1f17a25cf"
 
 [[files]]
 file = "config/l2configs/l2core-client.toml"
@@ -726,7 +738,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/apotheosis/lang/en_us.json"
-hash = "90a33fee3835134d131ed7c587f5dda97d435bbad3998a92b72eb282a5c820e6"
+hash = "03806bf2068276ce8c1db0e0cfd1e13a03e48f531847744542a230704f4008b3"
 
 [[files]]
 file = "kubejs/assets/dsurround/dsconfigs/dimensions.json"
@@ -735,6 +747,10 @@ hash = "67d013bdda4e0dc9ee8e3ce33f00b5026f7750035fb0c0429fe780a305d25ccc"
 [[files]]
 file = "kubejs/assets/kubejs/textures/quests/ae2_setup.png"
 hash = "22285d45511953cedac2ed11af76f6a8743a1552427968ab8c8ef4bdbdb6ae3d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/quests/appleskin.png"
+hash = "9c4567d90898d5b3431c3f6047d9dae1c6bccc83fe866cfca20bb946b0a9e8a0"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
@@ -848,7 +864,7 @@ metafile = true
 
 [[files]]
 file = "mods/apotheosis-x-irons-spellbooks-compat.pw.toml"
-hash = "079784cf04446ed5d8d4dfd0292ea5c37edc506053c297658b334f024a8d6da8"
+hash = "c27b1052c5f626f6f1b6988e3d1e04158be9c6b7e42aaeea19f3138cb29a6c74"
 metafile = true
 
 [[files]]
@@ -898,7 +914,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "32220d2f0275dd71f089742921c86c8964186a8d9610434f53f67f2e459c2ef2"
+hash = "e587e79637fbc8dc23f29d51e2c4a685a3bcfbdb28b24452620dedbab8e7368c"
 metafile = true
 
 [[files]]
@@ -908,7 +924,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-compatibility-checker.pw.toml"
-hash = "887accac20ee924c569f880c0ee0eee3307499062dc14199da3fb91abbfb5eea"
+hash = "75f11e3816916c9a5701f475e2169829fafdb5d11d464a3c6b83f8cb7669d814"
 metafile = true
 
 [[files]]
@@ -929,11 +945,6 @@ metafile = true
 [[files]]
 file = "mods/cherished-worlds.pw.toml"
 hash = "e2caa89a5028fea5cb1f002e844b0e91759cbc9969cf0cce1877f329a54e8139"
-metafile = true
-
-[[files]]
-file = "mods/clientsort.pw.toml"
-hash = "d50eec7c17958ffa17419e2ccb52e2bf38304ca8ddff500736b0fef8991b639b"
 metafile = true
 
 [[files]]
@@ -972,11 +983,6 @@ hash = "06e87d3cc5ee6a1f467160d2cb8e416f42aaa2c4271adb380c2672f4f4cac9c8"
 metafile = true
 
 [[files]]
-file = "mods/extreme-sound-muffler.pw.toml"
-hash = "5cb26b582b49e534ecf327bfa08ecaa21ae71d995a1bea4491fb0f631ad445d4"
-metafile = true
-
-[[files]]
 file = "mods/fastfurnace.pw.toml"
 hash = "4f7c443c70a28284bfb40e613c835167c9c71f2db257714275041f16e280b6d9"
 metafile = true
@@ -1003,12 +1009,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "48172cddf0c2014e76b1d06bc9fd84297019610cd57d4099f4cf4c1b263ae328"
+hash = "4e1eddd312e79a88a66d3b905f7dd0370580bc2b1032ae1ef73f8030c47d50b2"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "e44d70c7f0b3b5157f8d7ea76a1636a068e77162ff6a008cbbb051c6a1f4d065"
+hash = "c96edf9b09a2f406225103988c91bdcdd71f09815302632272137ded009742c6"
 metafile = true
 
 [[files]]
@@ -1042,8 +1048,13 @@ hash = "070867dc8ae93744959610974b246cbac214141299710cf7f6e961adb165310a"
 metafile = true
 
 [[files]]
+file = "mods/inventory-essentials.pw.toml"
+hash = "6e40a993b6ad3ebf94b6771b9a31d17414d2949ece938c7fa69f2bb93f75baec"
+metafile = true
+
+[[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
-hash = "332d9a4db6c82a1b505829ede7977640e91513c3fa34231901e2034bae83d2f5"
+hash = "c7104af995b95c68c28b8425e8a2da698f11500edc4e69056478090982d28915"
 metafile = true
 
 [[files]]
@@ -1053,12 +1064,12 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "8b4e6f98185fa77d721a3950ae708d633622e41fd6a303e8c1e4cbb1105d429f"
+hash = "540706ab9db0907199fcc08ac62c8f0b291f7ce5b01a90e426f0b6c76c76b51c"
 metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "3216eeda2cbcf86da017bf0c92416147e0ae77cb59c546b0752769ed16217cc5"
+hash = "395ed890024bdb90e7c0fed1edf8b3905a367942ded954fca92384c76a7e5601"
 metafile = true
 
 [[files]]
@@ -1083,7 +1094,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "908cbf89e774b114d1dc3aef4806c9d2d782cfd314be001718bb690af9b074a8"
+hash = "3ac8c76f4cb2f1200d60fa2e74108d9cb9355346ddb8a4a735134dfac7b77136"
 metafile = true
 
 [[files]]
@@ -1094,11 +1105,6 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "97521b85e74dfbc642b9102a46be0cdda07b9cfe36aba027a3878054f93ccfcb"
-metafile = true
-
-[[files]]
-file = "mods/mouse-tweaks.pw.toml"
-hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
 metafile = true
 
 [[files]]
@@ -1153,7 +1159,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "e579a0d73f6b5fa9e5662734b2ec5bb475e98c11f901bc380a2487f7c5e6391e"
+hash = "897eb0608109b72f855db05163f8d67f97ba197a41952f57673be49f961ab4b2"
 metafile = true
 
 [[files]]
@@ -1188,10 +1194,14 @@ metafile = true
 
 [[files]]
 file = "mods/waystones.pw.toml"
-hash = "ea16c0d61b7753a2fb969bdf00e3a3c9f5f0c0fd2d658668e379ad3c48e7d61f"
+hash = "6495b55a9192d7ca0e8dee85f824ac519a019bbd0dc1507984f45c2fb5ae8a26"
 metafile = true
 
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "7c6f2e38a6932f846738747fd6cff3af239748a84e89350f6c967c8ac72a65d6"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "55352f2ddaafcc377ffc26f1d79a8c848ffb8b68fdfe2cb6a03ae8e68b0b3620"

@@ -1,5 +1,13 @@
 {
     "advancements.apotheosis.progression.ascent.desc": "Clear the Frontier Gateway to begin your Ascent (unlock this advancement in quests)",
     "advancements.apotheosis.progression.summit.desc": "Complete the required quests to reach the Summit (unlock this advancement in quests)",
-    "advancements.apotheosis.progression.pinnacle.desc": "Complete the required quests to enter the Pinnacle (unlock this advancement in quests)"
+    "advancements.apotheosis.progression.pinnacle.desc": "Complete the required quests to enter the Pinnacle (unlock this advancement in quests)",
+
+    "advancements.apotheosis.progression.ascent.criteria.impossible": "Unlock the Ascent from quests",
+    "advancements.apotheosis.progression.summit.criteria.impossible": "Unlock the Summit from quests",
+    "advancements.apotheosis.progression.pinnacle.criteria.impossible": "Unlock the Pinnacle from quests",
+
+    "advancements.apotheosis.challenge_gates.sigil_of_supremacy.desc": "Acquire a Sigil of Supremacy from Wave 20 of the Endless Gateway of Apothic Invaders",
+
+    "loot_category.apotheosis.shears.plural": "Shears"
 }
