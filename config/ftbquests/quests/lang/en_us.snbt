@@ -1,1 +1,757 @@
-{ }
+{
+	chapter.10AE9179F0394825.title: "The Ascent"
+	chapter.160B8B78EB96B117.title: "The Summit"
+	chapter.41A013956838E66D.title: "Introduction"
+	chapter.4843A8AC868B88BE.title: "The Beginning"
+	chapter.66354C38AB457A6D.title: "Affix Loot"
+	chapter.7C1BA425D72C0C6B.title: "Helpful Mods"
+	chapter.7EBFE8E5ECEA8883.title: "The Pinnacle"
+	chapter_group.0CDBBA537B0A5FD4.title: "Main Story"
+	chapter_group.303C2E7D834AC05D.title: "Information"
+	quest.007AAA22D619F250.quest_desc: ["Enchant Dragon's Breath at level 80 to infuse it. Use it to craft an Endshelf."]
+	quest.007AAA22D619F250.quest_subtitle: "Level 90 enchantments"
+	quest.007AAA22D619F250.title: "Endshelf"
+	quest.01752B1F045B5379.quest_desc: [
+		"When enchanting, the enchantment level is randomly increased or decreased before it is applied to your item. Higher level -> stronger enchantments."
+		""
+		"&cQuanta&r increases the randomness. For example, at &c50%&r Quanta, the level is changed by up to &c50%&r. When enchanting at level 30, your item receives level 15-45 enchantments."
+		""
+		"&5Arcana&r makes rare enchantments more common and increases the number of enchantments received."
+	]
+	quest.01752B1F045B5379.quest_subtitle: "How they work"
+	quest.01752B1F045B5379.title: "Quanta and Arcana"
+	quest.02AD166D83314109.quest_desc: [
+		"Some End Cities have flying ships. In the front of them is a Dragon Head, needed for the Draconic Endshelf."
+		""
+		"Some don't. If you get unlucky with your End City map, move far away from the End City and use a new map."
+		""
+		"This is the highest enchantment level!"
+	]
+	quest.02AD166D83314109.quest_subtitle: "Level 100 enchantments"
+	quest.02AD166D83314109.title: "Draconic Endshelf"
+	quest.041ECA8009260D9F.quest_desc: [
+		"The stone maze is home to the Naga, a large, long snake and your first boss."
+		""
+		"On your Magic Map, find a dark green head with red eyes. If you don't see one, you may need to explore a little to fill in more of the map."
+		""
+		"That is where the Naga lives. Defeat it to unlock the next structure."
+	]
+	quest.041ECA8009260D9F.title: "The Naga"
+	quest.04A22AB0B8CBF3EC.quest_desc: [
+		"You can find Warp Dust in towers scattered across the Overworld. It cannot be crafted."
+		""
+		"Warp Dust can be used to craft Waystones or Warp Scrolls."
+	]
+	quest.04A22AB0B8CBF3EC.quest_subtitle: "Used to craft Waystones"
+	quest.0587FA424CC08231.quest_desc: ["Unbreakable Potion Charms can be created with level 100 enchants."]
+	quest.0587FA424CC08231.quest_subtitle: "Permanent effects"
+	quest.0587FA424CC08231.title: "Unbreakable Potion Charms"
+	quest.0614D4BFED789272.quest_desc: [
+		"You're recommended to clear this Gateway at the end of this World Tier."
+		""
+		"Clearing the Gateway rewards 3 Wither Skeleton Skulls, which can help you defeat the Wither."
+	]
+	quest.0614D4BFED789272.quest_subtitle: "Clear the second Gateway"
+	quest.0614D4BFED789272.title: "The Ascent Gateway"
+	quest.07B7BE494D4BE936.quest_desc: [
+		"Inventory Essentials adds shortcuts for inventory management. Here are the most commonly used two."
+		""
+		"While holding down left click and Shift, drag over inventory slots to transfer items quickly."
+		""
+		"Middle click (e.g., pushing your mouse wheel down) sorts an inventory."
+	]
+	quest.07B7BE494D4BE936.quest_subtitle: "Shortcuts"
+	quest.07B7BE494D4BE936.title: "Inventory Essentials"
+	quest.0911B4E744CD7E54.quest_desc: [
+		"Applied Energistics 2 (AE2) is a storage and automation mod. You probably don't need the automation part of AE2 for this modpack."
+		""
+		"The storage starter pack can store 640 types of items. Beyond this, you'll need to craft a second ME Drive, which requires some AE2 progression."
+		""
+		"An AE2 quest line might be added one day. For now, start reading from the \"Getting Started\" chapter of the Guide."
+	]
+	quest.0911B4E744CD7E54.quest_subtitle: "Storage and automation"
+	quest.0911B4E744CD7E54.title: "Applied Energistics 2 (AE2)"
+	quest.09B60ED523CC5DDE.quest_desc: [
+		"The Cursium set is obtained by applying Cursium Ingots and Cursium Upgrades to Netherite gear."
+		""
+		"The Cursium Chestplate will likely save your life, considering what is up next."
+		""
+		"The no revival debuff is an effect. I wonder if you could game the system..."
+	]
+	quest.09B60ED523CC5DDE.quest_subtitle: "Saves lives"
+	quest.09CB494FB1A22AA2.quest_desc: [
+		"Form a 2x2 pool of water, surround it with flowers (including at the corners), then throw in a diamond."
+		""
+		"The diamond will be consumed and a portal will be formed. Jump in!"
+	]
+	quest.09CB494FB1A22AA2.quest_subtitle: "Head to the Twilight Forest"
+	quest.0A1125DD336E593A.quest_desc: [
+		"This Bookshelf removes the downsides of &cQuanta&r. This means that when adding &cQuanta&r, you no longer risk getting lower level enchantments."
+		""
+		"When enchanting at level 30 and 50% &cQuanta&r, your item receives level 30-45 enchantments, instead of 15-45."
+	]
+	quest.0A1125DD336E593A.title: "Geodeshelf"
+	quest.0B49BD96FB5416F5.quest_desc: ["Craft one of these Sculkshelves for level 80 enchantments."]
+	quest.0B49BD96FB5416F5.quest_subtitle: "Level 80 enchantments"
+	quest.0B49BD96FB5416F5.title: "Sculkshelves"
+	quest.0C1D044EEA9F89A1.quest_desc: [
+		"The mod responsible for adding Gateways is actually Gateways to Eternity, not Apotheosis."
+		""
+		"Besides the Gateway you defeat on every World Tier, the mod also adds some Gateways for getting resources. Check them out!"
+	]
+	quest.0C1D044EEA9F89A1.quest_subtitle: "Have some fun"
+	quest.0C7C16C7F66BA2AA.quest_desc: [
+		"The Swamp contains the labyrinth. This structure can take a while to explore."
+		""
+		"Deep in the labyrinth is the Minoshroom. Defeat it and consume a Meef Stroganoff to proceed."
+	]
+	quest.0C7C16C7F66BA2AA.title: "The Minoshroom"
+	quest.0DFD86C3D00858E9.quest_desc: [
+		"The Nether is home to many resources vital for progression in Minecraft: Blaze Rods, Wither Skulls, Netherite, Potions, and more."
+		""
+		"It also unlocks a bookshelf that raises the enchantment level beyond 30."
+	]
+	quest.0DFD86C3D00858E9.quest_subtitle: "Enter the Nether"
+	quest.0DFD86C3D00858E9.title: "The Nether"
+	quest.0FE9D9D0075B8B4A.quest_desc: [
+		"Note: This quest has 3 pages."
+		""
+		"To the right of your inventory, you can see a list of all items. The bottom of the list is a search bar."
+		""
+		"Click an item to see how to craft it. For example, Iron Ingots:"
+		""
+		"{image:kubejs:textures/quests/jei.png width:16 height:9 align:center fit:true}"
+		"{@pagebreak}"
+		"{image:kubejs:textures/quests/jei.png width:16 height:9 align:center fit:true}"
+		""
+		"The tabs show different ways to make Iron Ingots, like blasting and smelting."
+		""
+		"The button to the right bookmarks the recipe. You can also hover over any item and press A to bookmark the item."
+		""
+		"You can click an item in the recipe (e.g., Iron Block) to show &oits&r recipe."
+		"{@pagebreak}"
+		"Right clicking an item shows its uses instead. That is, all recipes in which it is an ingredient."
+		""
+		"When crafting, recipes have a button that moves ingredients to the grid."
+		""
+		"{image:kubejs:textures/quests/jei_move.png width:160 height:90 align:center fit:true}"
+		""
+		"Finally, the bottom left corner has buttons to toggle not only bookmarks, but also lookup history."
+	]
+	quest.0FE9D9D0075B8B4A.quest_subtitle: "Minecraft search engine"
+	quest.0FE9D9D0075B8B4A.title: "Just Enough Items (JEI)"
+	quest.1101528C7885F782.quest_desc: [
+		"The Arcane Anvil is mainly used to upgrade Scrolls."
+		""
+		"Check the uses of a Scroll in JEI to determine which Ink rarity is needed for an upgrade."
+		""
+		"Note that crafting a high level Scroll in the Scroll Forge is often cheaper."
+	]
+	quest.1101528C7885F782.quest_subtitle: "Upgrade Scrolls"
+	quest.11721DEDF60D1DAF.quest_desc: [
+		"The Salvaging Table can recycle Affix Items into Rarity Materials, as well as refund material from vanilla gear."
+		""
+		"Rarity Materials are crafting materials. More importantly, in the next quest, they can be used to convert regular gear into Affix Items."
+		""
+		"You can recycle Gems here to get more Gem Dust than using an Anvil."
+	]
+	quest.11721DEDF60D1DAF.quest_subtitle: "Recycle Affix Items"
+	quest.11E14ACFB0CB9D4B.quest_desc: [
+		"These can give casting bonuses."
+		""
+		"The Wandering Magician set is cheapest but cannot be upgraded."
+		""
+		"In contrast, the Wizard set can be upgraded via crafting to give specialized bonuses."
+	]
+	quest.11E14ACFB0CB9D4B.quest_subtitle: "Armor with casting bonuses"
+	quest.11E14ACFB0CB9D4B.title: "Caster's Equipment"
+	quest.136EADB0B0AF9C6D.quest_desc: ["You can redeem a Pearl from this quest every 2 minutes."]
+	quest.136EADB0B0AF9C6D.title: "Need More Attempts?"
+	quest.138C7EDA95C62BBA.quest_desc: ["The Reforging Table allows crafting Affix Items of tiers Epic and higher."]
+	quest.138C7EDA95C62BBA.quest_subtitle: "Craft Epic Affix Items"
+	quest.138C7EDA95C62BBA.title: "Reforging II"
+	quest.13A90A5F1E372F57.quest_desc: [
+		"The Alchemist Cauldron has two main uses. It needs a heat source under it."
+		""
+		"You can put Scrolls into a Cauldron filled with water to recycle them. A Scroll has a 50% chance to yield Ink. Use a Bottle to store the Ink."
+		""
+		"You can also use the Cauldron like a Brewing Stand. A set of ingredients will make 4 Bottles of Potion instead of 3."
+	]
+	quest.13A90A5F1E372F57.quest_subtitle: "Recycle Scrolls"
+	quest.16CD71AACA948C5A.quest_desc: ["You're recommended to clear this Gateway at the end of this World Tier."]
+	quest.16CD71AACA948C5A.quest_subtitle: "Clear the third Gateway"
+	quest.16CD71AACA948C5A.title: "The Summit Gateway"
+	quest.17568FDEB1040F3F.quest_desc: [
+		"A regular Spawner spawns mobs every &6200&r to &6800&r ticks (10 to 40 seconds). 20 ticks is 1 second."
+		""
+		"Every time, the Spawner can spawn up to &64&r mobs at once. It can only spawn until &66&r mobs are in its range."
+		""
+		"It spawns up to &64&r blocks away in both horizontal directions, so its spawning range is 9x9. Spawners only work when you're within &616&r blocks of it."
+	]
+	quest.17568FDEB1040F3F.quest_subtitle: "How Spawners work"
+	quest.17568FDEB1040F3F.title: "Spawner Mechanics"
+	quest.188FAC49C9FC5963.quest_desc: [
+		"So far, your Affix Items have random abilities (or \"Affixes\") and strength."
+		""
+		"With the Augmenting Table and Sigils of Enhancement, you can reroll Affixes and max out their strength."
+	]
+	quest.188FAC49C9FC5963.quest_subtitle: "Maximum power!"
+	quest.188FAC49C9FC5963.title: "Augmenting"
+	quest.192647352173D10B.quest_desc: [
+		"Using an Eye of Ender makes it fly to a nearby Stronghold. In the Stronghold is an inactive End Portal. Insert Eyes of Ender into each End Portal Frame to activate it."
+		""
+		"Bring Bottles, then jump in to meet the Ender Dragon. You need to collect several Bottles of Dragon's Breath for some endgame recipes."
+		""
+		"Then, slay the Dragon to win Minecraft."
+	]
+	quest.192647352173D10B.quest_subtitle: "Win Minecraft"
+	quest.192647352173D10B.title: "The End"
+	quest.1AA8ED214491DA9B.quest_desc: ["At the centre of the Snowy Forest stands a Glacier. On top of that is the Aurora Palace, where the Snow Queen lives. Find and defeat her."]
+	quest.1AA8ED214491DA9B.title: "The Snow Queen"
+	quest.1B0A0E8E071B92E7.quest_desc: [
+		"The Helpful Mods chapter explains mods that play a supportive role instead of adding to progression."
+		""
+		"Newcomers to modded Minecraft are recommended to check it out, especially the quest on Just Enough Items (JEI)."
+	]
+	quest.1B0A0E8E071B92E7.title: "Helpful Mods"
+	quest.1BFCCFB266C76256.quest_desc: [
+		"Insert Sigils of Rebirth, Rarity Materials, and an item to convert it into an Affix Item. Existing Affix Items will have their stats rerolled instead."
+		""
+		"Like Enchanting, Reforging has a level requirement and consumes some levels."
+		""
+		"The Simple Reforging Table can craft up to &9Rare&r items. Tiers &5Epic&r and higher are available later."
+	]
+	quest.1BFCCFB266C76256.quest_subtitle: "Craft Affix Items"
+	quest.1BFCCFB266C76256.title: "Reforging"
+	quest.1D5945876631BB6F.quest_desc: [
+		"Ancient Knowledge is an effect from Apotheosis that greatly increases experience gained."
+		""
+		"Swords at Rare or above can grant Ancient Knowledge upon hitting a mob."
+		""
+		"You can also get a Potion of Ancient Knowledge by brewing with Bottles o' Enchanting."
+	]
+	quest.1D5945876631BB6F.quest_subtitle: "Multiply experience gained"
+	quest.1D71797F54B91B1B.quest_desc: ["By defeating the Warden and the Ender Dragon, you have readied yourself for the final World Tier. Congrats!"]
+	quest.1D71797F54B91B1B.quest_subtitle: "The final World Tier"
+	quest.1D71797F54B91B1B.title: "The Pinnacle"
+	quest.1E9B9ABEC0C9C4BC.quest_desc: [
+		"The Scroll Forge creates Scrolls."
+		""
+		"It requires Paper, a Focus, and Ink. The Focus determines the type (\"School\") of the Scroll. Ink determines the level of the Scroll."
+		""
+		"Then, choose which Scroll to craft."
+	]
+	quest.1E9B9ABEC0C9C4BC.quest_subtitle: "Craft Scrolls"
+	quest.1FDEF45943BAD109.quest_desc: ["Deepshelves can be crafted by enchanting Dormant Deepshelves at level 60. They increase Eterna to 70."]
+	quest.1FDEF45943BAD109.quest_subtitle: "Level 70 enchantments"
+	quest.2330BF6AD8AB6E4E.quest_desc: ["The Flimsy Ender Lead can capture and move animals, but not hostile mobs. You can move hostile mobs later."]
+	quest.2330BF6AD8AB6E4E.quest_subtitle: "Move animals easily"
+	quest.23FD2FE2FD5CD5B1.quest_desc: [
+		"Normally, Spawners only work when you're within 16 blocks of it."
+		""
+		"Prismarine Crystals can change that range. Changes are ignored if you've already applied a Nether Star."
+	]
+	quest.23FD2FE2FD5CD5B1.quest_subtitle: "Change Spawner activation range"
+	quest.24358AC5D4D3E054.quest_desc: [
+		"In Apotheosis, some items can be crafted through enchanting."
+		""
+		"The Infused Hellshelf and Infused Seashelf are crafted by enchanting a Hellshelf and Seashelf at level 45."
+		""
+		"They can increase your &aEterna&r to 60."
+	]
+	quest.24358AC5D4D3E054.quest_subtitle: "Level 60 enchantments"
+	quest.24358AC5D4D3E054.title: "Infused Bookshelves"
+	quest.27025F4E5B713F7B.quest_desc: [
+		"This quest gives you some Applied Energistics 2 storage for free!"
+		""
+		"Assemble the quest rewards like this:"
+		""
+		"{image:kubejs:textures/quests/ae2_setup.png width:160 height:90 align:center}"
+		""
+		"Then use the Crafting Terminal as if it's a really large chest."
+	]
+	quest.27025F4E5B713F7B.quest_subtitle: "Large storage for free"
+	quest.27025F4E5B713F7B.title: "Storage Starter Pack"
+	quest.2791254DCC04B24C.quest_desc: ["Deeper into the Swamp is the Fire Swamp, where the Hydra resides. Figure out how to defeat it."]
+	quest.2791254DCC04B24C.title: "The Hydra"
+	quest.2953A4532EAF1287.quest_desc: [
+		"An Enchantment Library stores Enchanted Books as points."
+		""
+		"Each type of Enchantment has its own number of points."
+		""
+		"A level I enchantment is worth 1 point, II is worth 2 points, III is worth 4 points... doubling for every level. Taking out Enchanted Books costs the same number of points."
+	]
+	quest.2953A4532EAF1287.quest_subtitle: "Control over enchantments"
+	quest.29FC3854F5DAAAF5.quest_desc: [
+		"You can duplicate Echo Shards by enchanting them at level 70."
+		""
+		"You can use them on a Spawner to increase loot from its mobs."
+		""
+		"They are also used in various endgame items in Iron's Spells."
+	]
+	quest.29FC3854F5DAAAF5.quest_subtitle: "Increase Spawner loot"
+	quest.2A191EA4871F8853.quest_desc: [
+		"Apply the Prismatic Cobweb using an Anvil to remove curses."
+		""
+		"Other enchantments are preserved."
+	]
+	quest.2A191EA4871F8853.quest_subtitle: "Remove curses"
+	quest.2B0436CFF562CF82.quest_desc: [
+		"World Tiers &6Ascent and above&r are unlocked through quests."
+		""
+		"You can begin your Ascent. Congrats!"
+		""
+		"On the left of this Quest Book, head to the Ascent chapter to keep going."
+	]
+	quest.2B0436CFF562CF82.quest_subtitle: "The third World Tier"
+	quest.2B0436CFF562CF82.title: "The Ascent"
+	quest.2EC8AF45803C21E6.quest_desc: ["The appetizer before the main dish."]
+	quest.2EC8AF45803C21E6.quest_subtitle: "Clear the fourth Gateway"
+	quest.2EC8AF45803C21E6.title: "The Pinnacle Gateway"
+	quest.2FA3D8108080291E.quest_desc: ["You can upgrade a Backpack with Rarity Materials in a Smithing Table to increase the number of slots."]
+	quest.2FA3D8108080291E.quest_subtitle: "Increase Backpack slots"
+	quest.2FA965C4A57055BA.quest_desc: [
+		"Some tools, weapons, and armor have slots that let you socket Gems to upgrade them."
+		""
+		"Once socketed, Gems cannot be retrieved until later in the game."
+		""
+		"However, the main use of Gems for now is to make Gem Dust. Throw a Gem in the world, then crush it with an Anvil."
+	]
+	quest.2FA965C4A57055BA.quest_subtitle: "Boost item stats"
+	quest.2FA965C4A57055BA.title: "Augment Gems"
+	quest.30312C7E2F67B88E.quest_desc: [
+		"This quest begins the Snowy Forest branch. You can delay it until the Summit, but you can also do it earlier."
+		""
+		"In the Snowy Forest, you may find caves where the Alpha Yeti lives. Defeat it to get its fur. "
+	]
+	quest.30312C7E2F67B88E.title: "The Alpha Yeti"
+	quest.3054343AD7F7DCAC.quest_desc: [
+		"If your item receives level 65 enchantments or above (which can happen through Quanta), Corrupted enchantments can appear."
+		""
+		"They have &4dark red&r text and are considered &ccurses&r, meaning you cannot remove them with a Grindstone."
+		""
+		"You cannot enchant an item with curses, since they are considered enchantments."
+	]
+	quest.3054343AD7F7DCAC.quest_subtitle: "Risks of high level enchanting"
+	quest.3054343AD7F7DCAC.title: "New Curses"
+	quest.31345B866642E8FF.quest_desc: [
+		"The Giants live on top of the clouds. One of them is holding a Pickaxe. Get it."
+		""
+		"Other than giant blocks, the Giant's Pickaxe can also break normal blocks in a 4x4x4 area."
+	]
+	quest.31345B866642E8FF.title: "The Giants"
+	quest.333A579B232BE1B0.quest_desc: [
+		"Find the Sunken City using the Eye of Abyss. Explore it to get items needed to craft the Abyssal Sacrifice."
+		""
+		"Feed it to the Altar of Abyss, then defeat the Leviathan."
+	]
+	quest.333A579B232BE1B0.title: "The Leviathan"
+	quest.3450D2144D2DD481.quest_desc: [
+		"Your first Spell Book will likely be the Flimsy Journal or the Ironbound Tome."
+		""
+		"An Inscription Table is where you put Scrolls into a Spell Book."
+		""
+		"If you use the Book, it will be equipped in your Spell Book Curios slot."
+	]
+	quest.3450D2144D2DD481.quest_subtitle: "Store Scrolls"
+	quest.3450D2144D2DD481.title: "Spellbooks"
+	quest.35CA116AD823AD9F.quest_desc: [
+		"Quests in the Information group aren't really quests, so you don't need to complete them."
+		""
+		"They give supplementary information."
+	]
+	quest.35CA116AD823AD9F.title: "Information"
+	quest.37C86044A948F9D9.quest_desc: [
+		"Want to know how much damage your shiny new weapon deals? Give this Target Dummy a whack."
+		""
+		"You can put armor on it to reduce damage it receives. This helps simulate stronger mobs."
+		""
+		"Putting on a cape simulates a boss. (Not an actual boss.)"
+	]
+	quest.37C86044A948F9D9.quest_subtitle: "Test your weapons"
+	quest.3807A0D8EA7D7770.quest_desc: [
+		"The Deepshelf of Arcane Treasures allows Treasure Enchantments to appear in the Enchanting Table."
+		""
+		"Treasure Enchantments are Enchantments that normally do not appear in the Enchanting Table, like Mending, Soul Speed, and some curses like Curse of Binding."
+	]
+	quest.3807A0D8EA7D7770.quest_subtitle: "Get Mending and more"
+	quest.3807A0D8EA7D7770.title: "Arcane Treasures"
+	quest.38B9283BAEB79A51.quest_desc: [
+		"If you have a Golden Pickaxe that breaks easily, but it is a powerful Affix Item, what can you do?"
+		""
+		"Other than salvaging, these Upgrades might help you out."
+	]
+	quest.38B9283BAEB79A51.quest_subtitle: "Upgrade early game gear"
+	quest.38B9283BAEB79A51.title: "Pre-Netherite Upgrades"
+	quest.3A0271A522EB2300.quest_desc: ["Use the Eye of Curse to find the Frosted Prison. Find and activate the Cursed Tombstone to summon Maledictus, then defeat it."]
+	quest.3A0271A522EB2300.title: "Maledictus"
+	quest.3B937ADF629BF630.quest_desc: [
+		"Search around for Ravens. Hunt them to get a Raven Feather. Torchberries can be found in caves."
+		""
+		"Craft and use a Blank Magic Map with these ingredients. It will show you the surrounding biomes and structures."
+	]
+	quest.3B937ADF629BF630.quest_subtitle: "Shows biomes and structures"
+	quest.3F7BA18570979D48.quest_desc: [
+		"minghinshi's Adventure is a modpack that aims to be short and sweet. Your goal is to get the Sigil of Supremacy."
+		""
+		"Quests guide you through the flow of the modpack. They are divided into two groups: Main Story and Information."
+		""
+		"Click the check mark under \"&9Tasks&r\" to complete this quest."
+	]
+	quest.3F7BA18570979D48.title: "Welcome!"
+	quest.42F7D44564CF58FE.quest_desc: ["Spawners can be harvested with Silk Touch. You can place them down again, and they will spawn as usual."]
+	quest.42F7D44564CF58FE.quest_subtitle: "Mine a Spawner with Silk Touch"
+	quest.4766FECED94FA54B.quest_desc: [
+		"Warp Scrolls can be used to teleport to Waystones. They will be consumed. "
+		""
+		"You need to hold for 5 seconds."
+	]
+	quest.4766FECED94FA54B.quest_subtitle: "One-time teleport to Waystones"
+	quest.497F4AE0C839C5ED.quest_desc: [
+		"Enchanted Books can be inserted into this Seashelf, banning the enchantment from the Enchanting Table."
+		""
+		"If a Book has multiple enchantments, only the first one will be banned."
+	]
+	quest.497F4AE0C839C5ED.quest_subtitle: "Filter out enchantments"
+	quest.49E64A5247D032E1.quest_desc: [
+		"The Dark Forest contains some ruins. They have an entrance that needs to be opened with a Trophy."
+		""
+		"You can mine the Trophy after opening the entrance."
+		""
+		"Enter and defeat the Knight Phantoms."
+	]
+	quest.49E64A5247D032E1.title: "The Knight Phantoms"
+	quest.4A96EB1B721C412E.quest_desc: ["The Ender Lead is crafted by enchanting a Flimsy Ender Lead at level 45. It can capture both animals and hostile mobs."]
+	quest.4A96EB1B721C412E.quest_subtitle: "Move mobs easily"
+	quest.4AC5BCBB573FDD34.quest_desc: [
+		"Blazing Brand is an effect that reduces armor by 20%. 5 stacks eliminate armor completely!"
+		""
+		"Blazing Grips can passively apply up to 1 stack of Blazing Brand."
+		""
+		"The two weapons' abilities apply Blazing Brand per hit, up to 5 stacks."
+	]
+	quest.4AC5BCBB573FDD34.quest_subtitle: "Reduce mob armor"
+	quest.4AC5BCBB573FDD34.title: "Blazing Brand"
+	quest.4AECA3913792A5EB.quest_desc: ["Find the Soul Forge with the Eye of Monstrous. Approach and defeat the Netherite Monstrosity."]
+	quest.4AECA3913792A5EB.title: "The Netherite Monstrosity"
+	quest.4D27CBF725BBA297.quest_desc: [
+		"Bring a Brush with you. Locate a Cursed Pyramid with an Eye of Desert."
+		""
+		"Excavate a Necklace of the Desert, then use it to wake up the Ancient Remnant. Move to the groove while knocking it down."
+	]
+	quest.4D27CBF725BBA297.title: "The Ancient Remnant"
+	quest.4ED49F5179E8F8E5.quest_desc: [
+		"Waystones let you teleport to them via Warp Scrolls or other Waystones."
+		""
+		"Waystones don't naturally generate."
+	]
+	quest.4ED49F5179E8F8E5.quest_subtitle: "Teleport to where you've been"
+	quest.4ED49F5179E8F8E5.title: "Waystones"
+	quest.5106088558C48AFA.quest_desc: [
+		"At the center of the Dark Forest is the Carminite Tower. This structure can take a while to explore."
+		""
+		"Defeat the Ur-Ghast on top of the Tower. If you haven't explored the Nether, the Tower can be a helpful source of Nether items, too."
+	]
+	quest.5106088558C48AFA.title: "The Ur-Ghast"
+	quest.514D37590B7D830C.quest_desc: [
+		"While holding Torches or Lanterns, Lighty shows where it's dark enough for monsters to spawn."
+		""
+		"&6Orange&r means that mobs can spawn at night, while &cred&r means that they can spawn any time."
+		""
+		"Pressing F7 shows Lighty settings, while F8 toggles the light level overlay."
+	]
+	quest.514D37590B7D830C.quest_subtitle: "Shows where mobs can spawn"
+	quest.514D37590B7D830C.title: "Lighty"
+	quest.53B26F6284EF8F3D.quest_desc: [
+		"The &6yellow numbers&r in the previous quest are the Spawner's stats. Various items can be applied on Spawners to change them."
+		""
+		"For example, a Clock can decrease the maximum spawning time by 20 (&6800&r -> &6780&r). You can decrease it down to 20."
+		""
+		"Check the uses of these items in JEI for more information."
+	]
+	quest.53B26F6284EF8F3D.quest_subtitle: "Upgrade Spawners"
+	quest.53B26F6284EF8F3D.title: "Spawner Modifiers"
+	quest.53CCF3903001AC9F.quest_desc: ["By exploring the Nether and the Twilight Forest, you have readied yourself for the next World Tier. Congrats!"]
+	quest.53CCF3903001AC9F.quest_subtitle: "The fourth World Tier"
+	quest.53CCF3903001AC9F.title: "The Summit"
+	quest.566E9FF8FFC166AE.quest_desc: [
+		"As an alternative to the Nether, the Ocean Monument unlocks a bookshelf that raises the enchantment level beyond 30."
+		""
+		"If you can't find an Ocean Monument but found a village, you can place a Cartography Table in the village to hire a Cartographer."
+		""
+		"Trade with the Cartographer until they offer the Ocean Explorer Map, which locates an Ocean Monument."
+	]
+	quest.566E9FF8FFC166AE.quest_subtitle: "Find an Ocean Monument"
+	quest.566E9FF8FFC166AE.title: "Ocean Monument"
+	quest.5831DCCEC559521C.quest_desc: [
+		"The Capturing enchantment on weapons gives a chance for mobs to drop their Spawn Eggs."
+		""
+		"You can use Spawn Eggs on a Spawner to set what it spawns."
+	]
+	quest.5831DCCEC559521C.quest_subtitle: "Get a Spawn Egg"
+	quest.585EC8356C1262F5.quest_desc: [
+		"If you're in need of ore, Hollow Hills have plenty of it."
+		""
+		"They show up as hills on the Magic Map."
+	]
+	quest.585EC8356C1262F5.quest_subtitle: "Source of ore"
+	quest.585EC8356C1262F5.title: "Hollow Hills"
+	quest.58F557788DE64DA7.quest_desc: [
+		"Staves let you right click to cast and give casting bonuses while held. The Graybeard Staff is cheapest."
+		""
+		"By the way, both Spell Books and Staves can be converted into Affix Items in the Reforging Table!"
+	]
+	quest.58F557788DE64DA7.quest_subtitle: "Weapon with casting bonuses"
+	quest.58F557788DE64DA7.title: "Staves"
+	quest.58FF121503A7123B.quest_desc: [
+		"The caves in the Highlands contain Magic Beans inside Obsidian vaults."
+		""
+		"Plant them on Uberous Soil beneath the clouds, then step back!"
+	]
+	quest.58FF121503A7123B.title: "The Troll Caves"
+	quest.59B987C1C531CB03.quest_desc: [
+		"Gate Pearls are used to open Gateways, which contain waves of mobs."
+		""
+		"Defeating a wave gives &6rewards&r, and defeating every wave gives the Gateway's &2key rewards&r."
+	]
+	quest.59B987C1C531CB03.quest_subtitle: "Fight waves of mobs"
+	quest.59B987C1C531CB03.title: "The Frontier Gateway"
+	quest.5B4FB79CC753AA78.quest_desc: [
+		"Once you have a weapon and full armor set that are affixed, the Frontier World Tier is unlocked."
+		""
+		"But you also need to activate it before it takes effect. By default, press &bCtrl + T&r to select World Tier."
+		""
+		"A higher World Tier has stronger mobs but also gives stronger items."
+	]
+	quest.5B4FB79CC753AA78.quest_subtitle: "Increase the World Tier"
+	quest.5B4FB79CC753AA78.title: "The Frontier"
+	quest.5B8EE587E24BEC2D.quest_desc: [
+		"The Sigil of Supremacy can upgrade Affixes beyond the limits of augmenting. But when you're this powerful, do you really need it?"
+		""
+		"Congratulations!"
+	]
+	quest.5B8EE587E24BEC2D.quest_subtitle: "Win the modpack"
+	quest.5BD29785EB6456E3.quest_desc: ["The Affix Loot chapter shows when each Affix Item begins to appear in which World Tier."]
+	quest.5BD29785EB6456E3.title: "Affix Loot"
+	quest.5C59D67C64769280.quest_desc: ["Enchanting an Arcane Cloth at level 90 gives a map to an End City. Enchanting between levels 70-89 will still give a map to an Ancient City."]
+	quest.5C59D67C64769280.quest_subtitle: "Find an End City"
+	quest.5C59D67C64769280.title: "End City"
+	quest.5EFB04447BFF35A8.quest_desc: ["In a Smithing Table, you can apply Sigils of Socketing on an item to add a socket, until it has two sockets."]
+	quest.5EFB04447BFF35A8.quest_subtitle: "Add sockets to items"
+	quest.5F28CAA9D59A966D.quest_desc: ["Two identical Gems can be crafted into a Gem one level higher using Rarity Materials in this Table."]
+	quest.5F28CAA9D59A966D.quest_subtitle: "Upgrade your gems"
+	quest.613D86F5CF447535.quest_desc: [
+		"One of the Obsidian vaults in the troll caves is larger than the rest. Open it with a Giant's Pickaxe to take out the Lamp of Cinders."
+		""
+		"You can use the Lamp to burn away Thorns and access the Final Castle. However, it is quite empty. We wait for the day the final boss arrives."
+		""
+		"Twilight Forest cleared!"
+	]
+	quest.613D86F5CF447535.quest_subtitle: "Win the Twilight Forest"
+	quest.613D86F5CF447535.title: "The Lamp of Cinders"
+	quest.6303DD04E171EF69.quest_desc: [
+		"The final goal of this modpack is to beat 20 waves of the Endless Gateway. Do you have what it takes?"
+		""
+		"Remember to:"
+		""
+		"- Max out your gear, including the Spell Book and Staff, with the Augmenting Table and Gems"
+		""
+		"- Use damage sources that are effective against high health mobs"
+		""
+		"You can do this! Good luck!!"
+	]
+	quest.6303DD04E171EF69.quest_subtitle: "Good luck!"
+	quest.6303DD04E171EF69.title: "Final Boss"
+	quest.63B09E008894F119.quest_desc: ["Use the Eye of Storm to find the Acropolis. Right click Scylla's anchor to summon and defeat it."]
+	quest.63B09E008894F119.title: "Scylla"
+	quest.6468C1664F101BBC.quest_desc: ["Use the Eye of Mech to find the Ancient Factory. Use a Nether Star to wake up the Harbinger, then defeat it."]
+	quest.6468C1664F101BBC.title: "The Harbinger"
+	quest.6728053261281854.quest_desc: ["Enchanting an Arcane Cloth at level 70 gives a map to an Ancient City. Or you can find a City by yourself."]
+	quest.6728053261281854.quest_subtitle: "Find an Ancient City"
+	quest.6728053261281854.title: "Ancient City"
+	quest.6734AC241B6394D3.quest_desc: [
+		"These Upgrades make the Backpack more convenient to use. They are crafted and put in upgrade slots in your Backpack."
+		""
+		"The Pickup Upgrade, for example, sends picked up items to the Backpack instead of your inventory."
+	]
+	quest.6734AC241B6394D3.quest_subtitle: "Simplify inventory management"
+	quest.6734AC241B6394D3.title: "Backpack Upgrades"
+	quest.68ADFC155A6F5C26.quest_desc: [
+		"The maximum enchanting level is determined by &aEterna&r. 15 standard Bookshelves increases Eterna to 30."
+		""
+		"Adding 5 Hellshelves or Seashelves to a 30 Eterna setup increases it to 45."
+		""
+		"Hellshelves also grant &cQuanta&r, and Seashelves also grant &5Arcana&r. They will be explained in the next quest."
+	]
+	quest.68ADFC155A6F5C26.quest_subtitle: "Level 45 enchantments"
+	quest.68ADFC155A6F5C26.title: "Hellshelf and Seashelf"
+	quest.6F606FB0E16E4FDB.quest_desc: ["Summon and kill a Warden to get its Tendril, to get level 80 enchants."]
+	quest.6F606FB0E16E4FDB.quest_subtitle: "Defeat the Warden"
+	quest.6FF9C3E7459BAD8F.quest_desc: [
+		"Keep running out of inventory space? Backpacks let you carry more items."
+		""
+		"You can put your Backpack in the Back Curios slot. To open it while equipped, press &bB&r (default)."
+	]
+	quest.6FF9C3E7459BAD8F.quest_subtitle: "Carry more items"
+	quest.703251F4DAF687BF.quest_desc: [
+		"Hunt for Wither Skeletons in a Nether Fortress. Enchantments like Looting, Scavenger, and Capturing can help."
+		""
+		"Alternatively, you can clear the Ascent Gateway, which rewards 3 Wither Skeleton Skulls."
+		""
+		"Then build the Wither and defeat it."
+	]
+	quest.703251F4DAF687BF.quest_subtitle: "Defeat the Wither"
+	quest.71549B03CA17EF43.quest_desc: ["Use the Eye of Void to locate a Ruined Citadel, then find and defeat the Ender Guardian."]
+	quest.71549B03CA17EF43.title: "The Ender Guardian"
+	quest.73A7B61CDA506412.quest_desc: [
+		"Find the Burning Arena with the Eye of Flame. Slay an Ignited Revenant to get Burning Ashes, then sacrifice it in the Burning Altar on the top of the Arena."
+		""
+		"Prepare for a tough battle."
+	]
+	quest.73A7B61CDA506412.title: "Ignis"
+	quest.75AB73887516E46C.quest_desc: [
+		"Potion Charms can be enabled and disabled. When enabled, they will supply their effect at a cost of durability."
+		""
+		"Potion Charms last longer than the duration of three Potions."
+		""
+		"You can put them in the Charm Curios slot, but they work anywhere in your inventory."
+	]
+	quest.75AB73887516E46C.quest_subtitle: "Toggle Potion effects on/off"
+	quest.75AB73887516E46C.title: "Potion Charms"
+	quest.764AAE99E3FE82FF.quest_desc: [
+		"Godforged Pearls are obtained from salvaging Mythic Affix Items."
+		""
+		"Enchanting one at level 80 yields 16 Eyes of Ender."
+	]
+	quest.764AAE99E3FE82FF.quest_subtitle: "Prepare for the End"
+	quest.764AAE99E3FE82FF.title: "Eye of Ender"
+	quest.769D83F25B4F91D9.quest_desc: [
+		"Explore structures and dimensions. Fight mobs and bosses. Loot."
+		""
+		"At milestones, the World Tier can be increased, giving greater challenges and loot. The final World Tier unlocks the Sigil of Supremacy."
+		""
+		"Head over to the Beginning chapter to begin your climb. Don't forget to claim the storage starter pack!"
+	]
+	quest.769D83F25B4F91D9.title: "Main Story"
+	quest.77BBEF176EEBC0CB.quest_desc: [
+		"Hold &bR&r, hover over a spell, then release R to select it. You can also hold &bLeft Alt&r and scroll."
+		""
+		"Press &bV&r to cast the selected spell. You can also use a Staff."
+		""
+		"You can set Quick Cast buttons in Controls to cast a spell without selecting it."
+	]
+	quest.77BBEF176EEBC0CB.quest_subtitle: "How to cast spells"
+	quest.77BBEF176EEBC0CB.title: "Spellcasting Controls"
+	quest.78BD6004F9F6B8D7.quest_desc: [
+		"Use the Ender Lead to capture a Witch, then enchant it at level 75 to get an Occult Ender Lead."
+		""
+		"Not only is it unbreakable, but you can also set a Spawner to spawn the captured mob."
+	]
+	quest.78BD6004F9F6B8D7.quest_subtitle: "Change Spawner mob easily"
+	quest.79421A922A820D2B.quest_desc: [
+		"Scrolls can be found from loot and let you cast magic. Check the Scroll in JEI to see what it does."
+		""
+		"You can use them directly to cast, but this &cconsumes&r the Scroll."
+		""
+		"In the next quest, you will make a Spell Book to cast spells repeatedly."
+	]
+	quest.79421A922A820D2B.quest_subtitle: "Cast spells"
+	quest.79421A922A820D2B.title: "Scrolls"
+	quest.7BC09EA6EDA55E9C.quest_desc: [
+		"On your Magic Map, find a head with a crown. This is Twilight Lich's tower. Climb the tower and defeat him!"
+		""
+		"From here, the progression of the Twilight Forest splits into three branches."
+		""
+		"The Snowy Forest branch can be completed in the Summit, but the other two are required in the Ascent."
+	]
+	quest.7BC09EA6EDA55E9C.title: "The Twilight Lich"
+	quest.7C06C5FEEB1183B5.quest_desc: [
+		"From mobs or chests, you might get items with colored, long names."
+		""
+		"These are Affix Items. They are more powerful than usual."
+	]
+	quest.7C06C5FEEB1183B5.quest_subtitle: "Get your first Affix Item"
+	quest.7C06C5FEEB1183B5.title: "The Haven"
+	quest.7CAB71D3FB5C856A.quest_desc: ["In a Smithing Table, you can apply Sigils of Withdrawal on an item to remove its Gems. The Gems will be refunded."]
+	quest.7CAB71D3FB5C856A.quest_subtitle: "Refund socketed Gems"
+	quest.7CDB479961E7EC1F.quest_desc: [
+		"Dynamic Surroundings adds footsteps, ambient sounds, particles, and other effects for a more lively world."
+		""
+		"In the Game Menu, go to Mods -> Dynamic Surroundings -> Config to adjust them."
+		""
+		"The mod also lets you change the volume of or mute individual sounds in Options -> Music \\& Sounds -> Configure Sounds (bottom left)."
+	]
+	quest.7CDB479961E7EC1F.quest_subtitle: "Aesthetics"
+	quest.7CDB479961E7EC1F.title: "Dynamic Surroundings"
+	quest.7DFD304295DF106A.quest_desc: ["The Nether unlocks several Spawner modifiers. In particular, Ghast Tears increase the number of nearby mobs before the Spawner stops working."]
+	quest.7DFD304295DF106A.quest_subtitle: "Further upgrade Spawners"
+	quest.7DFD304295DF106A.title: "Nether Spawner Modifiers"
+	quest.7FBC5BB0C700A21B.quest_desc: [
+		"FTB Quests adds a quest system."
+		""
+		"Some quests require finishing quests from previous chapters to unlock. The triangle below the quest title on the left will show you what's needed to unlock a quest."
+		""
+		"You don't need a Quest Book to view quests. You can access them from the top left of your inventory. You can also set a keybind for viewing quests."
+	]
+	quest.7FBC5BB0C700A21B.quest_subtitle: "What you're using now"
+	quest.7FBC5BB0C700A21B.title: "FTB Quests"
+	task.0209403045603D9D.title: "Find an Ancient City"
+	task.0702A8C82EE80762.title: "Click to unlock shop"
+	task.0710ABAFE8661257.title: "Any Scroll"
+	task.082EDFF82A496F8C.title: "Thanks!"
+	task.0927BC2A676FC376.title: "Any Spell Book"
+	task.0962F872E7D6A26A.title: "Read the text"
+	task.0A7F59283BBD3D0C.title: "Eterna and Quanta"
+	task.0B2836859FB4FCFB.title: "Find an Ocean Monument"
+	task.0BB02474DFFBD18B.title: "I've read the text"
+	task.0F5E11092BB9B453.title: "I've read the text"
+	task.1475E601FE2F522C.title: "Any Potion Charm"
+	task.14B9496CFE069375.title: "I've read the text"
+	task.152D1E90AD50761E.title: "I've read the text"
+	task.15C1B316C9B6D446.title: "Neat!"
+	task.1993EB14711D8276.title: "Read the text"
+	task.1A3CDECC1DAC5B42.title: "I've read the text"
+	task.1E083A7F6A1BE2A1.title: "I've read the text"
+	task.216F2278EC409D89.title: "Any Backpack Upgrade"
+	task.23CB9CE2179F9788.title: "I've read the text"
+	task.27665BBE19DEE4BD.title: "Have Another Go"
+	task.285F03634D9C69A3.title: "I've read the text"
+	task.292D53BB84FAEBCB.title: "The Beginning"
+	task.297DE4ECBDF58B73.title: "Good Luck!"
+	task.29BB4AD44631B9F6.title: "I've read the text"
+	task.29E1252190F8146B.title: "I've read the text"
+	task.2A4A065D8325F503.title: "Good Luck!"
+	task.2B3DE5E4D86F6411.title: "Begin the Ascent"
+	task.2BF95CF9D7DF8CDF.title: "Read the text"
+	task.2D0F2DB7633DC976.title: "I've read the text"
+	task.2FD4A9FECCC2A428.title: "I've read the text"
+	task.3196CBCB6506874B.title: "Any Pre-Netherite Upgrade"
+	task.36EFC663A7627EC1.title: "I've read the text"
+	task.37E5E3FE96A3F863.title: "Good Luck!"
+	task.44C8610E14DD36E9.title: "I've read the text"
+	task.48AFA36D0ED0FAA4.title: "Good Luck!"
+	task.4B4F8A92F140C38B.title: "Any Staff"
+	task.4E507EC653A1BC41.title: "Good Luck!"
+	task.4EDF74D39817CE02.title: "Find an End City"
+	task.4EFB2D8EBE09779D.title: "Any Gem"
+	task.508D6AA956A5EB52.title: "I've read the text"
+	task.54B26D3B7CD1E05A.title: "I've read the text"
+	task.550E92851954EDEB.title: "Click to redeem"
+	task.5609830B04B2F0F8.title: "Welcome!"
+	task.5922AAEE7DC1EEEC.title: "I've read the text"
+	task.5B50124520838AD7.title: "Welcome to the Summit"
+	task.5D60290F8CFD2BA1.title: "I've read the text"
+	task.601E87CE69B301FA.title: "Twilight Bows"
+	task.624D7DB356D19231.title: "Ancient Knowledge"
+	task.64930ABF02C2678B.title: "Extra Gateways"
+	task.668FCD75620EF81C.title: "Click to redeem Gate Pearl"
+	task.68151D70C3C3F498.title: "I've read the text"
+	task.6CE7FD8665B0B66D.title: "I've read the text"
+	task.6DF83A3FBF7273E1.title: "I've read the text"
+	task.70777C9AEAB742DC.title: "Welcome!"
+	task.70896D18D5F4E56D.title: "I've read the text"
+	task.784C4266D578518F.title: "I've read the text"
+	task.78AA4CE9F4AE05A7.title: "Good Luck!"
+	task.7A4DCA77351E153D.title: "Any Unbreakable Potion Charm"
+	task.7F292BCACF0A3B4E.title: "I've read the text"
+}

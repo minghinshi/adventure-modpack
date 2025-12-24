@@ -1,9 +1,0 @@
-[
-  {"version":2},
-  {"ingredient":{"id":"cataclysm:witherite_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"cataclysm:ender_guardian_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"cataclysm:cursium_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"cataclysm:ignitium_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"cataclysm:the_leviathan_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"cataclysm:lava_power_cell"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]

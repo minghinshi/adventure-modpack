@@ -560,5 +560,15 @@
 			x: 4.5d
 			y: 1.5d
 		}
+		{
+			id: "37C86044A948F9D9"
+			tasks: [{
+				id: "4C4E1466366C6FAC"
+				item: { count: 1, id: "dummmmmmy:target_dummy" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
 	]
 }

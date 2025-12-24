@@ -474,7 +474,7 @@ hash = "4fd0c37d70778b85665ec4410f27b44a7f7508c8c77f3eda48bea4acaf3009e6"
 
 [[files]]
 file = "config/ftbquests-client.snbt"
-hash = "1c90a2cba58d51566c782fab201e79c65a12f2aead7d8e5172ff84f3d873cb9e"
+hash = "f4481c4f2533eda8e63073c18040926a73b15a5d88d7e71b8970110c0d84e959"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -482,23 +482,27 @@ hash = "819f3d4eda8cd2c4ab403550f92ae08495ea7b46f652e96942ccb024026d022f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/affix_loot.snbt"
-hash = "decf9b4f76f7bf555f478d38de0bf929287337422eaaa3db0be3d8e479af8fed"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/chapter.snbt"
-hash = "09c4c95e84ba560dd4a776fb26a4191a1abcf22fb81c7ee66d81c0c9ff238221"
+hash = "02b113f5a5b20b0c5b2bd96ea83678a77e58fb8251dda199c1b631bafe7c0ff0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/helpful_mods.snbt"
-hash = "8b907adcf3261c8c2fe7fb3e446b5fb8bae0ca8f335bf564d4d1a2a6c8342a49"
+hash = "a79cd26f7f00ea921985f755c316712511d01b2b1e9fd0eda87d2452e969bc99"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/introduction.snbt"
+hash = "6e6df7a9dcc543f8661f824c51d2c236dd396fb265065d2cb2c9138aa8be42e6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_ascent.snbt"
-hash = "2e09a8c0ba58e9d45be4b8f009599ce98d43efe8d737db09a67977cca47cbbae"
+hash = "35db2e315260bd5c4d5ad8370db4034264f1e5b05d83962aa0a175ceb1cfe55c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_beginning.snbt"
-hash = "d2e4e277517cd19c8391bb5442c56df69002fcc2018a186d8b534f86dab86bba"
+hash = "1002f75a17181a994af103936e4a729a150bd386beb6204cf581cfb222ae5bce"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/the_pinnacle.snbt"
+hash = "c29703f398bae4fef3137c6656c03e53d1f18c2a907b1c81cefcfa0d3544794f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_summit.snbt"
@@ -506,15 +510,11 @@ hash = "55baa7974e36c01d6a7dd59eb5a1d7c4f3abbf4b86c630c2ce6a66457cc091b5"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "58ee5f7fc10ae0f46e20df0673d0216baf875d470cfc13f19b8b10a46ec62f14"
-
-[[files]]
-file = "config/ftbquests/quests/lang/en_gb.snbt"
-hash = "125715925f64db6a36b97c78b5a537bbba7341c37b9fcaf414d25cccc6814abf"
+hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
+hash = "9636eaf120ae287db69826517c5c94d3854e492d7852c38711dfbaa67e110a2c"
 
 [[files]]
 file = "config/ftbxmodcompat.snbt"
@@ -554,11 +554,11 @@ hash = "3741bb54a4535fb5a00fb0ee1f4386f3dd17834aebdf9e89c21fcd3307109709"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "22c0e932bb40e3aad790cbb0f4a19fa978fc4f0e2ce55040eedbe1c0daf6b585"
+hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "a0a11e3ae491d2eeff3e7a65eadc03c18a03d6f1a0167e8dbf09f8b9000e8d42"
+hash = "4364b817dbf8c57ceb08ff7de270c45635218516acb673cb85aae1f8890b2b5c"
 
 [[files]]
 file = "config/jade/sort-order.json"
@@ -582,7 +582,7 @@ hash = "dbe59536c485906f085a216661baffcd9dcb0c704e0c2c210da6c32910fb8f7b"
 
 [[files]]
 file = "config/jei/jei-client.ini"
-hash = "f6841387ba118885299e6fe6574daaa62ad5adcf4e73f851ec2e9f8977ea066d"
+hash = "ff00e7a2c0371e37234e7c2c6488f0b88197718a4cdaaa93348d6e55fda6a9fc"
 
 [[files]]
 file = "config/jei/jei-colors.ini"
@@ -599,26 +599,6 @@ hash = "6a91c09d1cabc1980d90ab102a03ec58c0551213ab16a459b599d768b334d054"
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
 hash = "bbe8a912dc893cd09e52e0f311d07162402ed55f5249a718653c91c07a649395"
-
-[[files]]
-file = "config/jei/world/local/AE2_Trial/lookupHistory.json"
-hash = "683a3eeb7976fe8bae558336f43b1936b852eb102e267260d68099ef712f3c70"
-
-[[files]]
-file = "config/jei/world/local/Test_World/bookmarks.json"
-hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
-
-[[files]]
-file = "config/jei/world/local/Test_World/lookupHistory.json"
-hash = "031be7d294ec56ef5c584b03ff81086e74d9dc0166a50a0ad38c0da0d7ac16e7"
-
-[[files]]
-file = "config/jei/world/local/World_Two/bookmarks.json"
-hash = "e91087f6828b5929040c63971a946e856ef806d9c18e17d4fda340d4b48030b1"
-
-[[files]]
-file = "config/jei/world/local/World_Two/lookupHistory.json"
-hash = "6354e0dc8d0c3f0149109557347a8e8a694c651d0842610b481e9fb1f17a25cf"
 
 [[files]]
 file = "config/l2configs/l2core-client.toml"
@@ -753,12 +733,20 @@ file = "kubejs/assets/kubejs/textures/quests/appleskin.png"
 hash = "9c4567d90898d5b3431c3f6047d9dae1c6bccc83fe866cfca20bb946b0a9e8a0"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/quests/jei.png"
+hash = "db1d253a36d8698f0f9f60c7ef244d84214ecdc4d8165858490b95e8c33811ea"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/quests/jei_move.png"
+hash = "0714dc41e8562074ed40eaf0412f574bba3a692a840bcba0c77a6a5fc1975783"
+
+[[files]]
 file = "kubejs/client_scripts/jsconfig.json"
 hash = "a0a5ba96b6e7c95a1c45efaaaa4bacb2837278075424b3e6983cc187877ec782"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
-hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
+hash = "4e5d2a296790c002a5f998d65331079c06aa1332416553ac2877b2f2541c5014"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -767,6 +755,10 @@ hash = "5623e1a581bbeda53e279fa9bab93b6050b46a46b6854769022760a5c5fdfc5d"
 [[files]]
 file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
+
+[[files]]
+file = "kubejs/config/defaultoptions.txt"
+hash = "66f8967145d466bf05096bf32714df85d2686a038e366c042ba6c8b22a6f6805"
 
 [[files]]
 file = "kubejs/config/probe-settings.json"
@@ -825,16 +817,12 @@ file = "kubejs/server_scripts/jsconfig.json"
 hash = "a4db68bbae2ab1ca7a8527d6ee6ac57b530dfce51bbd5e12f4c4a7a739c2c560"
 
 [[files]]
+file = "kubejs/server_scripts/quest_book.js"
+hash = "7ba2bff47337aada4fb57c26a3b15b71d9e04c17350b7a295a324dcb457e018e"
+
+[[files]]
 file = "kubejs/server_scripts/recipes.js"
 hash = "dd8f688349ea35bc110646f7b80765b82b522e9357aad436b2dcc7cc71ee5480"
-
-[[files]]
-file = "kubejs/server_scripts/salvage_armor.js"
-hash = "99b24b28f3c0b75fe4c65198ca3e7985eccab0d52afc80682ed00e68f5054e38"
-
-[[files]]
-file = "kubejs/server_scripts/salvage_tools.js"
-hash = "943887e452ff6df2568b6fe90f2ba1bfa3ece576e48d715eade9e0073a65dbbc"
 
 [[files]]
 file = "kubejs/server_scripts/upgrade_backpack.js"
@@ -1201,7 +1189,3 @@ metafile = true
 file = "mods/yeetusexperimentus.pw.toml"
 hash = "7c6f2e38a6932f846738747fd6cff3af239748a84e89350f6c967c8ac72a65d6"
 metafile = true
-
-[[files]]
-file = "options.txt"
-hash = "55352f2ddaafcc377ffc26f1d79a8c848ffb8b68fdfe2cb6a03ae8e68b0b3620"

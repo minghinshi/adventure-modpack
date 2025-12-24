@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: ""
+	icon: {
+		id: "minecraft:oak_log"
+	}
+	id: "41A013956838E66D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3F7BA18570979D48"
+			tasks: [{
+				id: "6DF83A3FBF7273E1"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F7BA18570979D48"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "769D83F25B4F91D9"
+			tasks: [{
+				id: "29BB4AD44631B9F6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F7BA18570979D48"]
+			id: "35CA116AD823AD9F"
+			tasks: [{
+				id: "1A3CDECC1DAC5B42"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35CA116AD823AD9F"]
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "1B0A0E8E071B92E7"
+			tasks: [{
+				id: "784C4266D578518F"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35CA116AD823AD9F"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "5BD29785EB6456E3"
+			tasks: [{
+				id: "2FD4A9FECCC2A428"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+	]
+}

@@ -222,9 +222,6 @@
 			]
 			disable_toast: true
 			icon: {
-				components: {
-					"minecraft:damage": 1523
-				}
 				id: "minecraft:netherite_sword"
 			}
 			id: "53CCF3903001AC9F"

@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "chapter"
+	filename: "the_pinnacle"
 	group: "0CDBBA537B0A5FD4"
 	icon: {
 		id: "apotheosis:sigil_of_supremacy"
