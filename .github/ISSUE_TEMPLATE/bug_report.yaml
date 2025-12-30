@@ -1,0 +1,56 @@
+name: Bug report
+description: Report a bug to help me fix it.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Bug Report
+        ## Notes
+        - Look for [open issues](https://github.com/minghinshi/adventure-modpack/issues) for the same bug. If found, comment on it instead of filing a bug report.
+        - If you can, check that your bug exists in the latest version of the modpack.
+        - Don't use a bug report to suggest features.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: Describe both what you expected and what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. Get a Glass Sword with Mythic rarity
+        2. Use it to hit a chicken
+        3. Game crashes
+    validations:
+      required: true
+  - type: input
+    id: log
+    attributes:
+      label: Log
+      description: After causing the bug, hold F3 + C to crash the game (no need if the game has already crashed). Upload the log at `.minecraft/logs/latest.log` to <https://mclo.gs/>. In Prism Launcher, you can quickly do this by going to minghinshi's Adventure > Edit > Minecraft Log > Upload.
+      placeholder: https://mclo.gs/GB1107s
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Modpack version
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+    validations:
+      required: false
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional information
+      description: What else might be relevant to this bug and help me fix it?
+    validations:
+      required: false
