@@ -1,10 +1,10 @@
 name: Bug report
 description: Report a bug to help me fix it.
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        # Bug Report
         ## Notes
         - Look for [open issues](https://github.com/minghinshi/adventure-modpack/issues) for the same bug. If found, comment on it instead of filing a bug report.
         - If you can, check that your bug exists in the latest version of the modpack.
