@@ -23,4 +23,4 @@ Progression revolves around [Apotheosis](https://www.curseforge.com/minecraft/mc
 
 Deliberately fast gameplay. In the beginning, you get a Creative Energy Cell and some storage from [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2) for free. [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones) are free to use.
 
-Around 100 [Quests](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge) guiding you through progression. Some teach "standard" mods like [Just Enough Items](https://www.curseforge.com/minecraft/mc-mods/jei) and [Inventory Essentials](https://www.curseforge.com/minecraft/mc-mods/inventory-essentials) to ease beginners of modded Minecraft.
+Around 100 [Quests](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge) guiding you through progression. Some teach "standard" mods like [Just Enough Items](https://www.curseforge.com/minecraft/mc-mods/jei) to ease beginners of modded Minecraft.
