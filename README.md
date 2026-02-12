@@ -2,7 +2,9 @@
 
 ## Installation
 
-Assuming that you are using [Prism Launcher](https://prismlauncher.org/):
+The modpack is on [CurseForge](https://www.curseforge.com/minecraft/modpacks/minghinshis-adventure).
+
+Alternatively, you can download from this repository. Assuming that you are using [Prism Launcher](https://prismlauncher.org/):
 
 1. Find the [latest release](https://github.com/minghinshi/adventure-modpack/releases) (top of page).
 2. Download `minghinshi-adventure-x.y.z.zip`.
