@@ -38,7 +38,7 @@ body:
     id: version
     attributes:
       label: Modpack version
-      placeholder: 0.1.0
+      placeholder: x.y.z
     validations:
       required: true
   - type: textarea
