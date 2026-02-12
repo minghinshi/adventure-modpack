@@ -1,0 +1,282 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "0F84B8D01E791472"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		id: "cataclysm:the_incinerator"
+	}
+	id: "0707055BCE01F1AE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1D71797F54B91B1B"]
+			disable_toast: true
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "4AECA3913792A5EB"
+			tasks: [
+				{
+					id: "6A92F3D8DD36ED8C"
+					item: { count: 1, id: "cataclysm:monstrous_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_monstrosity"
+					criterion: ""
+					id: "4277D845953E7DB1"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D71797F54B91B1B"]
+			disable_toast: true
+			icon: {
+				id: "cataclysm:desert_eye"
+			}
+			id: "4D27CBF725BBA297"
+			tasks: [
+				{
+					id: "5BEF9B1738C6AC20"
+					item: { count: 1, id: "minecraft:brush" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "06E8DD3592D345F4"
+					item: { count: 1, id: "cataclysm:desert_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_remnant"
+					criterion: ""
+					id: "66CA989DDE6F78E6"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D71797F54B91B1B"]
+			disable_toast: true
+			icon: {
+				id: "cataclysm:abyss_eye"
+			}
+			id: "333A579B232BE1B0"
+			tasks: [
+				{
+					id: "53B21B4266580A90"
+					item: { count: 1, id: "cataclysm:abyss_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "42083FB5F741CDB3"
+					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_leviathan"
+					criterion: ""
+					id: "58643024B127DF9F"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D71797F54B91B1B"]
+			disable_toast: true
+			icon: {
+				id: "cataclysm:flame_eye"
+			}
+			id: "73A7B61CDA506412"
+			tasks: [
+				{
+					id: "646C300D17AD7DE0"
+					item: { count: 1, id: "cataclysm:flame_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_ignis"
+					criterion: ""
+					id: "2AC644FEE4F6CBE4"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["73A7B61CDA506412"]
+			icon: {
+				id: "cataclysm:blazing_grips"
+			}
+			id: "4AC5BCBB573FDD34"
+			tasks: [
+				{
+					id: "18CBD4AA5771BC29"
+					item: { count: 1, id: "cataclysm:blazing_grips" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "193C5085A637C399"
+					item: { count: 1, id: "cataclysm:the_incinerator" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5D1B670030D3D64D"
+					item: { count: 1, id: "cataclysm:the_immolator" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D71797F54B91B1B"]
+			disable_toast: true
+			icon: {
+				id: "cataclysm:cursed_eye"
+			}
+			id: "3A0271A522EB2300"
+			tasks: [
+				{
+					id: "56322DAAFBCD9C69"
+					item: { count: 1, id: "cataclysm:cursed_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_maledictus"
+					criterion: ""
+					id: "4EC7C94B57D04AC6"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3A0271A522EB2300"]
+			id: "09B60ED523CC5DDE"
+			tasks: [{
+				id: "446ED5B3B78D9887"
+				item: { count: 1, id: "cataclysm:cursium_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D71797F54B91B1B"]
+			disable_toast: true
+			icon: {
+				id: "cataclysm:void_eye"
+			}
+			id: "71549B03CA17EF43"
+			tasks: [
+				{
+					id: "519E34FA2D602392"
+					item: { count: 1, id: "cataclysm:void_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_ender_guardian"
+					criterion: ""
+					id: "39C548135326A3B7"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D71797F54B91B1B"]
+			disable_toast: true
+			icon: {
+				id: "cataclysm:storm_eye"
+			}
+			id: "63B09E008894F119"
+			tasks: [
+				{
+					id: "6BDD644A81E0EF85"
+					item: { count: 1, id: "cataclysm:storm_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_scylla"
+					criterion: ""
+					id: "616DC9AD90C6F237"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D71797F54B91B1B"]
+			disable_toast: true
+			icon: {
+				id: "cataclysm:mech_eye"
+			}
+			id: "6468C1664F101BBC"
+			tasks: [
+				{
+					id: "357BEAC927AB424D"
+					item: { count: 1, id: "cataclysm:mech_eye" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_harbinger"
+					criterion: ""
+					id: "1B8A29D3F725EDDA"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6468C1664F101BBC"
+				"71549B03CA17EF43"
+				"4AECA3913792A5EB"
+				"73A7B61CDA506412"
+				"333A579B232BE1B0"
+				"4D27CBF725BBA297"
+				"3A0271A522EB2300"
+				"63B09E008894F119"
+			]
+			disable_toast: true
+			id: "1FC272E58C87A2F2"
+			shape: "square"
+			tasks: [{
+				advancement: "cataclysm:kill_all_bosses"
+				criterion: ""
+				id: "17CF54870334FEED"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+}

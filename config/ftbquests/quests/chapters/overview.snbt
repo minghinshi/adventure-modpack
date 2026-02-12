@@ -1,0 +1,439 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overview"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "05E198BD33515147"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "07CE917079E15AC5"
+			tasks: [{
+				advancement: "apotheosis:progression/haven"
+				criterion: ""
+				icon: {
+					id: "minecraft:stone_sword"
+				}
+				id: "1274BA8B9D5C0136"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["07CE917079E15AC5"]
+			disable_toast: true
+			id: "5B4FB79CC753AA78"
+			tasks: [{
+				advancement: "apotheosis:progression/frontier"
+				criterion: ""
+				id: "7771E45304DD0C33"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B4FB79CC753AA78"]
+			disable_toast: true
+			id: "59B987C1C531CB03"
+			tasks: [
+				{
+					id: "04DAEBB5ED153302"
+					item: { components: { "gateways:gateway": "apotheosis:tiered/frontier" }, count: 1, id: "gateways:gate_pearl" }
+					type: "item"
+				}
+				{
+					advancement: "apotheosis:gateways/frontier"
+					criterion: ""
+					id: "58A4A6337C64F4FE"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59B987C1C531CB03"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:blaze_powder"
+			}
+			id: "2B0436CFF562CF82"
+			rewards: [{
+				advancement: "apotheosis:progression/ascent"
+				auto: "no_toast"
+				criterion: ""
+				id: "0D4D8B3D67666948"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "2B3DE5E4D86F6411"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B0436CFF562CF82"]
+			disable_toast: true
+			id: "0614D4BFED789272"
+			tasks: [
+				{
+					id: "7CDA961BD350A6B4"
+					item: { components: { "gateways:gateway": "apotheosis:tiered/ascent" }, count: 1, id: "gateways:gate_pearl" }
+					type: "item"
+				}
+				{
+					advancement: "apotheosis:gateways/ascent"
+					criterion: ""
+					id: "150AD94796F49D0A"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B0436CFF562CF82"]
+			disable_toast: true
+			id: "703251F4DAF687BF"
+			tasks: [{
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+				id: "7D81985CA8E81772"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"703251F4DAF687BF"
+				"0614D4BFED789272"
+				"7BC09EA6EDA55E9C"
+			]
+			disable_toast: true
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "53CCF3903001AC9F"
+			rewards: [{
+				advancement: "apotheosis:progression/summit"
+				auto: "no_toast"
+				criterion: ""
+				id: "1452881715D675A4"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "37E5E3FE96A3F863"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53CCF3903001AC9F"]
+			disable_toast: true
+			id: "16CD71AACA948C5A"
+			tasks: [
+				{
+					id: "2E77289086BD812E"
+					item: { components: { "gateways:gateway": "apotheosis:tiered/summit" }, count: 1, id: "gateways:gate_pearl" }
+					type: "item"
+				}
+				{
+					advancement: "apotheosis:gateways/summit"
+					criterion: ""
+					id: "14670DDD81D60FE4"
+					type: "advancement"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B0436CFF562CF82"]
+			disable_toast: true
+			id: "7BC09EA6EDA55E9C"
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "52E3380D4612BD6D"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53CCF3903001AC9F"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "192647352173D10B"
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "18B3FB3232B2B0DB"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"16CD71AACA948C5A"
+				"192647352173D10B"
+				"613D86F5CF447535"
+			]
+			disable_toast: true
+			icon: {
+				id: "minecraft:end_crystal"
+			}
+			id: "1D71797F54B91B1B"
+			rewards: [{
+				advancement: "apotheosis:progression/pinnacle"
+				auto: "no_toast"
+				criterion: ""
+				id: "5DCA13657B842E48"
+				type: "advancement"
+			}]
+			tasks: [{
+				id: "297DE4ECBDF58B73"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D71797F54B91B1B"]
+			dependency_requirement: "all_started"
+			disable_toast: true
+			id: "2EC8AF45803C21E6"
+			tasks: [
+				{
+					id: "0FDF2E95815296A5"
+					item: { components: { "gateways:gateway": "apotheosis:tiered/pinnacle" }, count: 1, id: "gateways:gate_pearl" }
+					type: "item"
+				}
+				{
+					advancement: "apotheosis:gateways/pinnacle"
+					criterion: ""
+					id: "06FD33E6A815FA21"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2EC8AF45803C21E6"
+				"59EB2412642D3838"
+			]
+			disable_toast: true
+			icon: {
+				components: {
+					"gateways:gateway": "apotheosis:endless_invader"
+				}
+				id: "gateways:gate_pearl"
+			}
+			id: "6303DD04E171EF69"
+			rewards: [{
+				auto: "no_toast"
+				id: "6AB0F2D983582418"
+				item: {
+					components: {
+						"gateways:gateway": "apotheosis:endless_invader"
+					}
+					count: 1
+					id: "gateways:gate_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A4A065D8325F503"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6303DD04E171EF69"]
+			disable_toast: true
+			id: "5B8EE587E24BEC2D"
+			shape: "square"
+			tasks: [{
+				id: "380986D911A94336"
+				item: { count: 1, id: "apotheosis:sigil_of_supremacy" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53CCF3903001AC9F"]
+			disable_toast: true
+			id: "613D86F5CF447535"
+			tasks: [{
+				advancement: "twilightforest:progress_troll"
+				criterion: ""
+				id: "2272B2931D67C0BD"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6303DD04E171EF69"]
+			disable_toast: true
+			id: "136EADB0B0AF9C6D"
+			optional: true
+			repeat_cooldown: 120
+			rewards: [{
+				id: "195F37C0CCFE3E24"
+				item: {
+					components: {
+						"gateways:gateway": "apotheosis:endless_invader"
+					}
+					count: 1
+					id: "gateways:gate_pearl"
+				}
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "550E92851954EDEB"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07CE917079E15AC5"]
+			disable_toast: true
+			id: "5797837861DBFA50"
+			rewards: [
+				{
+					id: "41CA063ED6F5BA4B"
+					item: {
+						components: {
+							"minecraft:block_entity_data": {
+								id: "ae2:creative_energy_cell"
+								proxy: {
+									p: 0
+								}
+							}
+						}
+						count: 1
+						id: "ae2:creative_energy_cell"
+					}
+					type: "item"
+				}
+				{
+					id: "2866677E612A3A8F"
+					item: {
+						components: {
+							"minecraft:block_entity_data": {
+								id: "ae2:drive"
+								inv: {
+									item0: {
+										count: 1
+										id: "ae2:item_storage_cell_4k"
+									}
+									item1: {
+										count: 1
+										id: "ae2:item_storage_cell_4k"
+									}
+									item2: {
+										count: 1
+										id: "ae2:item_storage_cell_4k"
+									}
+									item3: {
+										count: 1
+										id: "ae2:item_storage_cell_4k"
+									}
+									item4: {
+										count: 1
+										id: "ae2:item_storage_cell_4k"
+									}
+									item5: {
+										count: 1
+										id: "ae2:item_storage_cell_4k"
+									}
+									item6: {
+										count: 1
+										id: "ae2:item_storage_cell_4k"
+									}
+									item7: {
+										count: 1
+										id: "ae2:item_storage_cell_4k"
+									}
+									item8: {
+										count: 1
+										id: "ae2:item_storage_cell_4k"
+									}
+									item9: {
+										count: 1
+										id: "ae2:item_storage_cell_4k"
+									}
+								}
+								priority: 0
+								proxy: {
+									p: 0
+								}
+							}
+						}
+						count: 1
+						id: "ae2:drive"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "31BE30683567EDC8"
+					item: {
+						count: 1
+						id: "ae2:fluix_smart_cable"
+					}
+					type: "item"
+				}
+				{
+					id: "06B81F727253CF5C"
+					item: {
+						count: 1
+						id: "ae2:crafting_terminal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7631D2A95CBCC0BD"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D71797F54B91B1B"]
+			disable_toast: true
+			id: "59EB2412642D3838"
+			tasks: [{
+				advancement: "cataclysm:kill_all_bosses"
+				criterion: ""
+				id: "10D1F51E542B97EF"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

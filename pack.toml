@@ -1,13 +1,13 @@
 name = "minghinshi's Adventure"
 author = "minghinshi"
-version = "0.1.0"
+version = "0.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3c5dbd2ab07e1141c3c16a99ff9b51afbfba2f4d26f17a0fd6a19492635579ae"
+hash = "607da83d41f203e02f421feeef76e8d96a187534f26a07b7bbd08114bbe4a152"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.215"
+neoforge = "21.1.219"

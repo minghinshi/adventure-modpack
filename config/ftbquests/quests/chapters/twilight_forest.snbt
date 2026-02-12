@@ -1,0 +1,189 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "0F84B8D01E791472"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		id: "twilightforest:twilight_portal_miniature_structure"
+	}
+	id: "3EA6B18D26F32613"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B0436CFF562CF82"]
+			disable_toast: true
+			id: "09CB494FB1A22AA2"
+			tasks: [{
+				advancement: "twilightforest:root"
+				criterion: ""
+				id: "15DAB20019016695"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09CB494FB1A22AA2"]
+			id: "3B937ADF629BF630"
+			tasks: [{
+				id: "4C47F3BB087906AE"
+				item: { count: 1, id: "twilightforest:magic_map" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B937ADF629BF630"]
+			disable_toast: true
+			id: "041ECA8009260D9F"
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				id: "59719D9D704E6FAA"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7555A6B01B19AB1C"]
+			disable_toast: true
+			id: "49E64A5247D032E1"
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "17C9F4D30C112CBC"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["49E64A5247D032E1"]
+			disable_toast: true
+			id: "5106088558C48AFA"
+			tasks: [{
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+				id: "056DD286381C3B30"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7555A6B01B19AB1C"]
+			disable_toast: true
+			id: "0C7C16C7F66BA2AA"
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "0364B5EAECF0732E"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C7C16C7F66BA2AA"]
+			disable_toast: true
+			id: "2791254DCC04B24C"
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "30EB4B0BA4CCA7F9"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7555A6B01B19AB1C"]
+			disable_toast: true
+			id: "30312C7E2F67B88E"
+			tasks: [{
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+				id: "45D7683A493A1F69"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30312C7E2F67B88E"]
+			disable_toast: true
+			id: "1AA8ED214491DA9B"
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "6EB53722EA60024F"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1AA8ED214491DA9B"
+				"2791254DCC04B24C"
+				"5106088558C48AFA"
+			]
+			disable_toast: true
+			id: "58FF121503A7123B"
+			tasks: [{
+				advancement: "twilightforest:beanstalk"
+				criterion: ""
+				id: "0C2EAE8531897710"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58FF121503A7123B"]
+			disable_toast: true
+			id: "31345B866642E8FF"
+			tasks: [{
+				advancement: "twilightforest:giants"
+				criterion: ""
+				id: "3176BDF0F4E27FD3"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["041ECA8009260D9F"]
+			disable_toast: true
+			id: "7555A6B01B19AB1C"
+			shape: "square"
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "1582A8AF350EF624"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31345B866642E8FF"]
+			disable_toast: true
+			id: "0B4178D7AB1495B5"
+			shape: "square"
+			tasks: [{
+				advancement: "twilightforest:progress_troll"
+				criterion: ""
+				id: "2F63EBDF8B4AB449"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+	]
+}

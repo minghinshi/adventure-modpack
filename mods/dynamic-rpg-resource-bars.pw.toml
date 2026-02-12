@@ -1,0 +1,13 @@
+name = "Dynamic RPG Resource Bars"
+filename = "dynamic_resource_bars-neoforge-0.8.1-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "430c6521555e3e3b0f14e425d8d9e8b510bc9caa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7213038
+project-id = 1188180
