@@ -1,22 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/ISSUE_TEMPLATE/bug_report.yaml"
-hash = "8b87f0dc3c1317dc2f32247a09d328d1eb355dcace889001033179fb365232e8"
-
-[[files]]
-file = ".github/ISSUE_TEMPLATE/config.yaml"
-hash = "d6d81427cbfd6fb2c87462698c241fd6c31e47025c137498e50b8a01b228cb95"
-
-[[files]]
-file = "CHANGELOG.md"
-hash = "a3f13e26094a817a7b9cfecca577c48b0a94d0eba027459754376d789841845a"
-
-[[files]]
-file = "README.md"
-hash = "cb74056010f66eaa83811293901a9fe16bb607f2d3fb328f45caaa301bb1225f"
-
-[[files]]
 file = "config/NoChatReports/NCR-Client.json"
 hash = "edfe78d985fe67dce28104f3d87673e94c89134144451c291ecedcd2e2c3b480"
 
