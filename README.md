@@ -21,7 +21,7 @@ In some way, this modpack aims to offer an alternative to difficult "expert" mod
 
 Progression revolves around [Apotheosis](https://www.curseforge.com/minecraft/mc-mods/apotheosis), which divides progression into World Tiers. Reaching milestones unlocks higher World Tiers that offer harder challenges and more loot.
 
-"Staple" adventure mods like the [Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/apotheosis), [Iron's Spells and Spellbooks](https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks), and [Cataclysm](https://www.curseforge.com/minecraft/mc-mods/lendercataclysm) are lightly tied to progression though remain mostly untouched.
+"Staple" adventure mods like the [Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest), [Iron's Spells and Spellbooks](https://www.curseforge.com/minecraft/mc-mods/irons-spells-n-spellbooks), and [Cataclysm](https://www.curseforge.com/minecraft/mc-mods/lendercataclysm) are lightly tied to progression though remain mostly untouched.
 
 Deliberately fast gameplay. In the beginning, you get a Creative Energy Cell and some storage from [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2) for free. [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones) are free to use.
 
